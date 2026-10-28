@@ -1,0 +1,54 @@
+/*
+ * Menopause Compass design tokens (spec §2).
+ * Two text tokens are darkened from the spec hexes to meet WCAG 2.2 AA (4.5:1) on ivory/sage:
+ *   --slate (text)  #5A6D6A  (spec #647875 kept as --slate-ui for icons/borders)
+ *   --terra (text)  #A2533F  (spec #B9634D kept as --terra-ui for accents)
+ */
+:root {
+  --ink: #173d40;
+  --teal: #176c6b;
+  --teal-strong: #12595a;
+  --teal-soft: #dcebe9;
+  --ivory: #f5f1ea;
+  --surface: #ffffff;
+  --sage: #e5efeb;
+  --slate: #5a6d6a;
+  --slate-ui: #647875;
+  --terra: #a2533f;
+  --terra-ui: #b9634d;
+  --terra-soft: #f6e9e3;
+  --lavender: #edf0f8;
+  --ok: #20745a;
+  --ok-soft: #e3f2eb;
+  --err: #b23b3b;
+  --err-soft: #f9e6e6;
+  --line: #d9e1de;
+  --line-strong: #c3cfcb;
+  --page: var(--ivory);
+
+  --radius-card: 14px;
+  --radius-control: 8px;
+  --focus-ring: 0 0 0 2px var(--surface), 0 0 0 4px var(--teal);
+
+  --gutter: clamp(16px, 2.2vw + 6px, 36px);
+  --header-h: 60px;
+  --bottom-nav-h: 64px;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+
+  color-scheme: light;
+}
+
+[data-audience='academy'] {
+  --page: #fafbfb;
+}
+
+@media (max-width: 359px) {
+  :root {
+    --gutter: 12px;
+  }
+}
+@media (max-width: 767px) {
+  :root {
+    --header-h: 54px;
+  }
+}

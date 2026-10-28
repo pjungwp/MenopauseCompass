@@ -1,0 +1,2329 @@
+[
+  {
+    "id": "q-m1-01",
+    "moduleId": "m1",
+    "difficulty": "recall",
+    "stem": "A 51-year-old woman has had no menstrual bleeding for 9 months and has frequent night sweats. Which statement best describes her reproductive stage?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "She is postmenopausal because she has had more than 6 months of amenorrhea with vasomotor symptoms."
+      },
+      {
+        "id": "b",
+        "text": "Her stage should be determined by a serum FSH level above 40 IU/L."
+      },
+      {
+        "id": "c",
+        "text": "She is in the late menopause transition; menopause can be confirmed only after 12 months of amenorrhea."
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Menopause is defined retrospectively by the final menstrual period after 12 months of amenorrhea. Amenorrhea of ≥60 days places her in the late transition (STRAW+10).",
+    "wrongAnswerRationales": {
+      "a": "Six months does not meet the 12-month criterion.",
+      "b": "STRAW+10 is anchored on bleeding pattern; FSH is supportive only and fluctuates."
+    },
+    "learningObjective": "Apply STRAW+10 menstrual criteria to stage the menopause transition.",
+    "sourceFactIds": [
+      "f-straw"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slides 10–11"
+      }
+    ],
+    "examTrapTags": [
+      "FSH as diagnostic"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-02",
+    "moduleId": "m1",
+    "difficulty": "recall",
+    "stem": "Fezolinetant reduces vasomotor symptoms primarily by acting on which pathway?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Blocking neurokinin B signaling at NK3 receptors on hypothalamic KNDy neurons"
+      },
+      {
+        "id": "b",
+        "text": "Inhibiting serotonin reuptake in the thermoregulatory center"
+      },
+      {
+        "id": "c",
+        "text": "Agonizing estrogen receptor-β in peripheral vasculature"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Estrogen withdrawal leads to KNDy neuron hyperactivity and excess neurokinin B signaling to the thermoregulatory center. Fezolinetant is a selective NK3 receptor antagonist.",
+    "wrongAnswerRationales": {
+      "b": "Describes SSRIs/SNRIs.",
+      "c": "VMS originate centrally; fezolinetant is not an estrogen receptor ligand."
+    },
+    "learningObjective": "Describe the KNDy mechanism underlying VMS and its pharmacologic target.",
+    "sourceFactIds": [
+      "f-kndy",
+      "f-nk-antagonists"
+    ],
+    "references": [
+      {
+        "sourceId": "nh2023",
+        "section": "Neurokinin B antagonists"
+      }
+    ],
+    "examTrapTags": [
+      "mechanism"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-03",
+    "moduleId": "m1",
+    "difficulty": "application",
+    "stem": "A 36-year-old woman has had 5 months of amenorrhea and hot flashes. Pregnancy test is negative. What is the most appropriate next step?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Reassure her that early perimenopause is common and recheck in a year"
+      },
+      {
+        "id": "b",
+        "text": "Measure FSH and estradiol (repeated), with TSH and prolactin, to evaluate for primary ovarian insufficiency"
+      },
+      {
+        "id": "c",
+        "text": "Begin a salivary hormone panel to guide compounded therapy"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Amenorrhea before 40 warrants evaluation for POI; laboratory testing is appropriate in this age group, unlike typical perimenopause after 45.",
+    "wrongAnswerRationales": {
+      "a": "Menopause before 40 is not normal and needs evaluation.",
+      "c": "Salivary testing is unreliable and compounded therapy is not recommended."
+    },
+    "learningObjective": "Recognize when laboratory evaluation is indicated in suspected POI.",
+    "sourceFactIds": [
+      "f-poi-def",
+      "f-no-hormone-testing"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slides 7, 69"
+      }
+    ],
+    "examTrapTags": [
+      "POI"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-04",
+    "moduleId": "m1",
+    "difficulty": "recall",
+    "stem": "Which statement about androgens in midlife women is correct?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A total testosterone below the reference range confirms female androgen insufficiency."
+      },
+      {
+        "id": "b",
+        "text": "Adrenal androgens decline abruptly at the final menstrual period."
+      },
+      {
+        "id": "c",
+        "text": "No serum androgen concentration defines female androgen insufficiency, so levels should not guide diagnosis."
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "No serum androgen level defines female androgen insufficiency; checking levels to diagnose or guide treatment of low desire is not recommended.",
+    "wrongAnswerRationales": {
+      "a": "There is no validated threshold.",
+      "b": "Adrenal androgens rise moderately in the late transition and return toward baseline 1–2 years after the FMP."
+    },
+    "learningObjective": "Interpret the role of androgen testing in midlife women.",
+    "sourceFactIds": [
+      "f-no-hormone-testing",
+      "f-hsdd"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slides 16–17, 60"
+      }
+    ],
+    "examTrapTags": [
+      "testosterone level"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-05",
+    "moduleId": "m1",
+    "difficulty": "application",
+    "stem": "A 42-year-old woman undergoes bilateral salpingo-oophorectomy for benign disease and declines estrogen. Compared with natural menopause, she is at increased risk of which long-term outcome?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Dementia and cardiovascular disease"
+      },
+      {
+        "id": "b",
+        "text": "Ovarian cancer recurrence"
+      },
+      {
+        "id": "c",
+        "text": "Endometrial hyperplasia"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Bilateral oophorectomy at or before 45 is associated with increased dementia and cardiovascular risk; estrogen until the average age of menopause appears to mitigate these risks.",
+    "wrongAnswerRationales": {
+      "b": "Not relevant after benign oophorectomy.",
+      "c": "Hyperplasia relates to unopposed estrogen, not estrogen deficiency."
+    },
+    "learningObjective": "Identify health risks of early surgical menopause.",
+    "sourceFactIds": [
+      "f-poi-def",
+      "f-poi-ht"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 43"
+      },
+      {
+        "sourceId": "ht2022",
+        "section": "Summary"
+      }
+    ],
+    "examTrapTags": [
+      "surgical menopause"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m2-01",
+    "moduleId": "m2",
+    "difficulty": "application",
+    "stem": "A 63-year-old woman using low-dose vaginal estradiol for 2 years reports one episode of light spotting. What is the best next step?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Reassure her that spotting is expected with vaginal estrogen"
+      },
+      {
+        "id": "b",
+        "text": "Evaluate with transvaginal ultrasound and/or endometrial sampling"
+      },
+      {
+        "id": "c",
+        "text": "Add oral micronized progesterone and reassess in 6 months"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Any postmenopausal bleeding warrants evaluation, regardless of vaginal estrogen use.",
+    "wrongAnswerRationales": {
+      "a": "Bleeding should not be attributed to therapy without evaluation.",
+      "c": "Progestogen is not indicated with low-dose vaginal ET and does not replace evaluation."
+    },
+    "learningObjective": "Manage postmenopausal bleeding in women using vaginal estrogen.",
+    "sourceFactIds": [
+      "f-pmb",
+      "f-vaginal-estrogen"
+    ],
+    "references": [
+      {
+        "sourceId": "gsm2020",
+        "section": "Endometrial safety"
+      }
+    ],
+    "examTrapTags": [
+      "PMB"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m2-02",
+    "moduleId": "m2",
+    "difficulty": "application",
+    "stem": "A 47-year-old woman who smokes a pack per day requests contraception and has heavy irregular bleeding. Which option is most appropriate?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Low-dose combined oral contraceptive"
+      },
+      {
+        "id": "b",
+        "text": "Contraceptive vaginal ring"
+      },
+      {
+        "id": "c",
+        "text": "Levonorgestrel 52 mg intrauterine system"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Estrogen-containing contraception is inappropriate in a smoker over 35. The LNG-IUS provides contraception and treats heavy bleeding.",
+    "wrongAnswerRationales": {
+      "a": "Contraindicated in smokers over 35.",
+      "b": "Also estrogen-containing."
+    },
+    "learningObjective": "Select contraception in perimenopausal women with estrogen contraindications.",
+    "sourceFactIds": [
+      "f-contraception",
+      "f-peri-aub"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 75"
+      }
+    ],
+    "examTrapTags": [
+      "contraception"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m2-03",
+    "moduleId": "m2",
+    "difficulty": "recall",
+    "stem": "In which situation is serum FSH measurement most useful to assess menopausal status?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A 49-year-old with a levonorgestrel IUD and new vasomotor symptoms"
+      },
+      {
+        "id": "b",
+        "text": "A 50-year-old with irregular cycles and hot flashes"
+      },
+      {
+        "id": "c",
+        "text": "A 55-year-old with 2 years of amenorrhea"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Testing may help when bleeding cannot be used to assess status, such as with an LNG-IUD or after hysterectomy.",
+    "wrongAnswerRationales": {
+      "b": "Clinical picture is sufficient; FSH fluctuates.",
+      "c": "She is clearly postmenopausal."
+    },
+    "learningObjective": "Identify appropriate indications for hormone testing.",
+    "sourceFactIds": [
+      "f-no-hormone-testing"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 69"
+      }
+    ],
+    "examTrapTags": [
+      "FSH"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m2-04",
+    "moduleId": "m2",
+    "difficulty": "recall",
+    "stem": "Approximately what proportion of women with endometrial cancer present with abnormal uterine bleeding?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "About 50%"
+      },
+      {
+        "id": "b",
+        "text": "About 70%"
+      },
+      {
+        "id": "c",
+        "text": "About 90%"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "About 90% of women diagnosed with uterine cancer present with abnormal bleeding — the basis for evaluating all postmenopausal bleeding.",
+    "wrongAnswerRationales": {
+      "a": "Underestimates.",
+      "b": "Underestimates."
+    },
+    "learningObjective": "Recall the presentation of endometrial cancer.",
+    "sourceFactIds": [
+      "f-pmb"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 132"
+      }
+    ],
+    "examTrapTags": [
+      "percentages"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m2-05",
+    "moduleId": "m2",
+    "difficulty": "application",
+    "stem": "A woman on continuous combined estrogen–progestogen therapy started 3 months ago reports irregular light bleeding. She has no other symptoms. What is the most appropriate approach?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Immediate endometrial biopsy"
+      },
+      {
+        "id": "b",
+        "text": "Stop HT permanently"
+      },
+      {
+        "id": "c",
+        "text": "Counsel that unscheduled bleeding is common early; evaluate if it persists beyond about 6 months or is heavy"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Unscheduled bleeding is common in the first months of continuous combined therapy; persistent bleeding beyond ~6 months warrants evaluation.",
+    "wrongAnswerRationales": {
+      "a": "Not required this early for light bleeding without risk factors.",
+      "b": "Not indicated."
+    },
+    "learningObjective": "Manage expected bleeding patterns on EPT.",
+    "sourceFactIds": [
+      "f-pmb",
+      "f-progestogen"
+    ],
+    "references": [
+      {
+        "sourceId": "prove-concierge",
+        "section": "Fact 67"
+      }
+    ],
+    "examTrapTags": [
+      "bleeding on HT"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m3-01",
+    "moduleId": "m3",
+    "difficulty": "recall",
+    "stem": "What proportion of women experience vasomotor symptoms for more than 10 years?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "About one-third"
+      },
+      {
+        "id": "b",
+        "text": "About 5%"
+      },
+      {
+        "id": "c",
+        "text": "About two-thirds"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "VMS last a mean of 7–9 years, and roughly one-third of women experience them for more than 10 years.",
+    "wrongAnswerRationales": {
+      "b": "Underestimates; ~10% have VMS >20 years.",
+      "c": "Overestimates."
+    },
+    "learningObjective": "Counsel on expected VMS duration.",
+    "sourceFactIds": [
+      "f-vms-burden"
+    ],
+    "references": [
+      {
+        "sourceId": "nh2023",
+        "section": "Introduction"
+      }
+    ],
+    "examTrapTags": [
+      "percentages"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m3-02",
+    "moduleId": "m3",
+    "difficulty": "recall",
+    "stem": "In nonhormone VMS trials, which patient characteristic is associated with a greater placebo response?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Higher BMI"
+      },
+      {
+        "id": "b",
+        "text": "Greater anxiety"
+      },
+      {
+        "id": "c",
+        "text": "Surgical menopause"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Women with more anxiety show a higher placebo response; placebo improvement rates range from 20% to 66%.",
+    "wrongAnswerRationales": {
+      "a": "Not identified as the predictor.",
+      "c": "Not identified as the predictor."
+    },
+    "learningObjective": "Interpret placebo effects in VMS trials.",
+    "sourceFactIds": [
+      "f-nh-recommended"
+    ],
+    "references": [
+      {
+        "sourceId": "prove-concierge",
+        "section": "Facts 6–7"
+      }
+    ],
+    "examTrapTags": [
+      "trial design"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m3-03",
+    "moduleId": "m3",
+    "difficulty": "application",
+    "stem": "A healthy 52-year-old, 1 year past her final period, has 10 moderate-to-severe hot flashes daily and no contraindications. What is the most effective treatment?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Paced respiration training"
+      },
+      {
+        "id": "b",
+        "text": "Black cohosh extract"
+      },
+      {
+        "id": "c",
+        "text": "Systemic hormone therapy"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "HT is the most effective treatment for VMS and has a favorable benefit–risk ratio in women <60 or within 10 years of menopause.",
+    "wrongAnswerRationales": {
+      "a": "Not recommended (Level I).",
+      "b": "Supplements not recommended; no benefit over placebo."
+    },
+    "learningObjective": "Select first-line therapy for bothersome VMS in an appropriate candidate.",
+    "sourceFactIds": [
+      "f-ht-most-effective",
+      "f-timing"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "Abstract"
+      }
+    ],
+    "examTrapTags": [
+      "not recommended therapies"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m3-04",
+    "moduleId": "m3",
+    "difficulty": "recall",
+    "stem": "Which comorbidity is a recognized risk factor for more bothersome vasomotor symptoms?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Obstructive sleep apnea"
+      },
+      {
+        "id": "b",
+        "text": "Hypothyroidism treated to euthyroid state"
+      },
+      {
+        "id": "c",
+        "text": "Iron deficiency"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Comorbidities associated with VMS include thyroid disease, diabetes, obstructive sleep apnea and chronic pain conditions.",
+    "wrongAnswerRationales": {
+      "b": "Thyroid disease is a risk factor, but the euthyroid treated state is not the listed association.",
+      "c": "Not listed."
+    },
+    "learningObjective": "Identify risk factors for VMS.",
+    "sourceFactIds": [
+      "f-vms-burden"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 26"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m3-05",
+    "moduleId": "m3",
+    "difficulty": "application",
+    "stem": "A woman asks whether regular exercise will reduce her hot flashes. Based on the 2023 nonhormone statement, how should you counsel her?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Exercise is Level I recommended for VMS reduction."
+      },
+      {
+        "id": "b",
+        "text": "Exercise is not recommended specifically for VMS, though it has broad health benefits."
+      },
+      {
+        "id": "c",
+        "text": "Exercise worsens VMS and should be avoided."
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Exercise, yoga and cooling techniques are Level II not recommended for VMS treatment; exercise remains beneficial for overall health.",
+    "wrongAnswerRationales": {
+      "a": "Evidence was insufficient for recommendation.",
+      "c": "Not supported."
+    },
+    "learningObjective": "Counsel accurately about lifestyle measures for VMS.",
+    "sourceFactIds": [
+      "f-nh-not-recommended"
+    ],
+    "references": [
+      {
+        "sourceId": "nh2023",
+        "section": "Abstract"
+      }
+    ],
+    "examTrapTags": [
+      "lifestyle"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-01",
+    "moduleId": "m4",
+    "difficulty": "application",
+    "stem": "A 54-year-old with an intact uterus starts transdermal estradiol for VMS. Which addition is required?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Low-dose vaginal estrogen"
+      },
+      {
+        "id": "b",
+        "text": "Annual endometrial biopsy without a progestogen"
+      },
+      {
+        "id": "c",
+        "text": "A progestogen (or LNG-IUS), unless using CEE with bazedoxifene"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Systemic estrogen with an intact uterus requires endometrial protection with a progestogen, LNG-IUS (off-label), or a TSEC.",
+    "wrongAnswerRationales": {
+      "a": "Does not protect the endometrium.",
+      "b": "Surveillance does not replace protection."
+    },
+    "learningObjective": "Ensure endometrial protection with systemic estrogen.",
+    "sourceFactIds": [
+      "f-progestogen"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "Endometrial safety"
+      }
+    ],
+    "examTrapTags": [
+      "unopposed estrogen"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-02",
+    "moduleId": "m4",
+    "difficulty": "analysis",
+    "stem": "A 66-year-old woman has used estradiol and micronized progesterone since age 52 for VMS, which recur when she tries to stop. She is otherwise healthy. What is the most appropriate counseling?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Continuation can be reasonable with shared decision-making and periodic reevaluation of benefits and risks."
+      },
+      {
+        "id": "b",
+        "text": "She must discontinue HT because she is over 65."
+      },
+      {
+        "id": "c",
+        "text": "Switch to compounded estriol to lower risk."
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "There are no data to support routine discontinuation at 65; longer use for documented indications such as persistent VMS can be appropriate with periodic reassessment.",
+    "wrongAnswerRationales": {
+      "b": "No mandatory stop age.",
+      "c": "Compounded products are not recommended and not shown safer."
+    },
+    "learningObjective": "Counsel on HT duration beyond 65.",
+    "sourceFactIds": [
+      "f-duration",
+      "f-compounded"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "Summary"
+      }
+    ],
+    "examTrapTags": [
+      "stop age"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-03",
+    "moduleId": "m4",
+    "difficulty": "recall",
+    "stem": "In the WHI estrogen-alone (CEE) arm, what was observed for breast cancer?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Increased incidence with HR about 1.3"
+      },
+      {
+        "id": "b",
+        "text": "Reduced incidence and reduced breast cancer mortality"
+      },
+      {
+        "id": "c",
+        "text": "No effect on incidence or mortality"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "CEE alone was associated with reduced breast cancer incidence that persisted at long-term follow-up, and reduced breast cancer mortality.",
+    "wrongAnswerRationales": {
+      "a": "Describes CEE + MPA.",
+      "c": "A reduction was observed."
+    },
+    "learningObjective": "Distinguish breast cancer outcomes for ET vs EPT in WHI.",
+    "sourceFactIds": [
+      "f-breast-risk"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "Breast cancer"
+      }
+    ],
+    "examTrapTags": [
+      "ET vs EPT"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-04",
+    "moduleId": "m4",
+    "difficulty": "application",
+    "stem": "A 50-year-old with a BMI of 36 and migraine without aura has bothersome VMS. Which estrogen route is preferred?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Oral conjugated estrogens"
+      },
+      {
+        "id": "b",
+        "text": "Compounded estradiol pellet"
+      },
+      {
+        "id": "c",
+        "text": "Transdermal estradiol"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Transdermal estradiol avoids first-pass hepatic effects and is associated with lower VTE and stroke risk in observational data; stable levels may also help migraine.",
+    "wrongAnswerRationales": {
+      "a": "Oral route increases VTE risk relative to transdermal.",
+      "b": "Pellets are not recommended."
+    },
+    "learningObjective": "Choose route of HT based on risk factors.",
+    "sourceFactIds": [
+      "f-route",
+      "f-compounded"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "Route"
+      }
+    ],
+    "examTrapTags": [
+      "route"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-05",
+    "moduleId": "m4",
+    "difficulty": "recall",
+    "stem": "Under the FDA class labeling changes for menopausal hormone therapy announced in 2025 and approved beginning February 2026, which boxed warning was retained?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Endometrial cancer for systemic estrogen-alone products"
+      },
+      {
+        "id": "b",
+        "text": "Probable dementia for all systemic products"
+      },
+      {
+        "id": "c",
+        "text": "Breast cancer for all estrogen-containing products"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Statements on cardiovascular disease, breast cancer and probable dementia were removed from the boxed warning; the endometrial cancer boxed warning was retained for systemic estrogen-alone products.",
+    "wrongAnswerRationales": {
+      "b": "Removed throughout labeling.",
+      "c": "Removed from the boxed warning; retained elsewhere in labeling."
+    },
+    "learningObjective": "Describe current FDA labeling for menopausal HT.",
+    "sourceFactIds": [
+      "f-fda-label"
+    ],
+    "references": [
+      {
+        "sourceId": "fda-ht-label-2026"
+      }
+    ],
+    "examTrapTags": [
+      "regulatory update"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-06",
+    "moduleId": "m4",
+    "difficulty": "recall",
+    "stem": "In WHI participants aged 50–59 at enrollment, what was the effect of hormone therapy on all-cause mortality?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Significantly increased"
+      },
+      {
+        "id": "b",
+        "text": "Significantly reduced"
+      },
+      {
+        "id": "c",
+        "text": "Not assessed"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "In women aged 50–59, all-cause mortality was significantly reduced (HR ~0.69), supporting the favorable profile of early initiation.",
+    "wrongAnswerRationales": {
+      "a": "Incorrect direction.",
+      "c": "It was assessed in age-stratified analyses."
+    },
+    "learningObjective": "Recall age-stratified WHI mortality findings.",
+    "sourceFactIds": [
+      "f-timing"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022"
+      }
+    ],
+    "examTrapTags": [
+      "WHI"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m5-01",
+    "moduleId": "m5",
+    "difficulty": "application",
+    "stem": "A 48-year-old on tamoxifen for ER-positive breast cancer has severe hot flashes. Which agent is most appropriate?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Paroxetine 20 mg daily"
+      },
+      {
+        "id": "b",
+        "text": "Fluoxetine 20 mg daily"
+      },
+      {
+        "id": "c",
+        "text": "Venlafaxine 37.5 mg daily, titrating as needed"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Paroxetine and fluoxetine strongly inhibit CYP2D6, reducing conversion of tamoxifen to endoxifen. Venlafaxine has minimal CYP2D6 effect.",
+    "wrongAnswerRationales": {
+      "a": "Strong CYP2D6 inhibitor.",
+      "b": "Strong CYP2D6 inhibitor and not recommended for VMS."
+    },
+    "learningObjective": "Choose a nonhormone agent compatible with tamoxifen.",
+    "sourceFactIds": [
+      "f-ssri-tamoxifen"
+    ],
+    "references": [
+      {
+        "sourceId": "nh2023",
+        "section": "SSRIs and SNRIs"
+      }
+    ],
+    "examTrapTags": [
+      "CYP2D6"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m5-02",
+    "moduleId": "m5",
+    "difficulty": "recall",
+    "stem": "Which intervention is Level I NOT recommended for vasomotor symptoms in the 2023 nonhormone position statement?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Paced respiration"
+      },
+      {
+        "id": "b",
+        "text": "Clinical hypnosis"
+      },
+      {
+        "id": "c",
+        "text": "Cognitive-behavioral therapy"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Paced respiration is not recommended (Level I). CBT and hypnosis are recommended (Level I).",
+    "wrongAnswerRationales": {
+      "b": "Recommended, Level I.",
+      "c": "Recommended, Level I."
+    },
+    "learningObjective": "Distinguish recommended from not-recommended mind–body interventions.",
+    "sourceFactIds": [
+      "f-nh-not-recommended",
+      "f-nh-recommended"
+    ],
+    "references": [
+      {
+        "sourceId": "nh2023",
+        "section": "Abstract"
+      }
+    ],
+    "examTrapTags": [
+      "paced respiration"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m5-03",
+    "moduleId": "m5",
+    "difficulty": "application",
+    "stem": "A woman starting fezolinetant asks about monitoring. Per the 2024 boxed warning, what is required?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "No laboratory monitoring is needed"
+      },
+      {
+        "id": "b",
+        "text": "Hepatic tests at baseline, monthly for the first 3 months, then at 6 and 9 months"
+      },
+      {
+        "id": "c",
+        "text": "Annual lipid panel and mammogram"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "The FDA added a boxed warning for rare serious liver injury (Dec 2024), requiring hepatic labs at baseline, monthly × 3 months, then at months 6 and 9.",
+    "wrongAnswerRationales": {
+      "a": "Monitoring is required.",
+      "c": "Not the labeled monitoring requirement."
+    },
+    "learningObjective": "Recall safety monitoring for fezolinetant.",
+    "sourceFactIds": [
+      "f-nk-antagonists"
+    ],
+    "references": [
+      {
+        "sourceId": "fda-fezolinetant-2024"
+      }
+    ],
+    "examTrapTags": [
+      "regulatory update"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m5-04",
+    "moduleId": "m5",
+    "difficulty": "application",
+    "stem": "A 55-year-old with prior DVT has frequent night sweats that disrupt sleep. She prefers a medication taken once at night. Which is most appropriate?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Clonidine 0.1 mg at bedtime"
+      },
+      {
+        "id": "b",
+        "text": "Pregabalin 150 mg twice daily"
+      },
+      {
+        "id": "c",
+        "text": "Gabapentin at bedtime, titrated toward 900 mg/day or higher as tolerated"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Gabapentin (Level I) reduces VMS; bedtime dosing leverages sedation for VMS-related sleep disruption. Systemic HT is avoided after VTE.",
+    "wrongAnswerRationales": {
+      "a": "Not recommended; less effective with more adverse effects.",
+      "b": "Not recommended (Level III; Schedule V)."
+    },
+    "learningObjective": "Select nonhormone therapy for nocturnal VMS.",
+    "sourceFactIds": [
+      "f-gabapentin",
+      "f-vte-history"
+    ],
+    "references": [
+      {
+        "sourceId": "nh2023",
+        "section": "Gabapentinoids"
+      }
+    ],
+    "examTrapTags": [
+      "clonidine",
+      "pregabalin"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m5-05",
+    "moduleId": "m5",
+    "difficulty": "recall",
+    "stem": "Which SSRI is FDA approved specifically for moderate-to-severe vasomotor symptoms?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Paroxetine mesylate 7.5 mg daily"
+      },
+      {
+        "id": "b",
+        "text": "Escitalopram 10 mg daily"
+      },
+      {
+        "id": "c",
+        "text": "Sertraline 50 mg daily"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Low-dose paroxetine salt 7.5 mg was the first nonhormone FDA-approved therapy for VMS.",
+    "wrongAnswerRationales": {
+      "b": "Effective but off-label for VMS.",
+      "c": "Not recommended for VMS."
+    },
+    "learningObjective": "Recall FDA-approved nonhormone VMS agents.",
+    "sourceFactIds": [
+      "f-ssri-tamoxifen"
+    ],
+    "references": [
+      {
+        "sourceId": "nh2023",
+        "section": "Prescription therapies"
+      }
+    ],
+    "examTrapTags": [
+      "FDA approval"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m5-06",
+    "moduleId": "m5",
+    "difficulty": "application",
+    "stem": "A 74-year-old woman with mild cognitive impairment has bothersome VMS. Which nonhormone agent should be avoided?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Escitalopram"
+      },
+      {
+        "id": "b",
+        "text": "Oxybutynin"
+      },
+      {
+        "id": "c",
+        "text": "Cognitive-behavioral therapy"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Oxybutynin is anticholinergic; long-term use may be associated with cognitive decline, particularly in older adults.",
+    "wrongAnswerRationales": {
+      "a": "Reasonable option.",
+      "c": "No cognitive risk."
+    },
+    "learningObjective": "Recognize anticholinergic risk with oxybutynin.",
+    "sourceFactIds": [
+      "f-oxybutynin"
+    ],
+    "references": [
+      {
+        "sourceId": "nh2023",
+        "section": "Oxybutynin"
+      }
+    ],
+    "examTrapTags": [
+      "older adults"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m6-01",
+    "moduleId": "m6",
+    "difficulty": "application",
+    "stem": "A 60-year-old with an intact uterus starts the estradiol 2 mg vaginal ring (releasing ~7.5 µg/day) for GSM. Which is correct?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A progestogen is required for endometrial protection."
+      },
+      {
+        "id": "b",
+        "text": "This ring will also adequately treat her moderate VMS."
+      },
+      {
+        "id": "c",
+        "text": "No progestogen is needed and routine endometrial surveillance is not recommended."
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "The low-dose estradiol ring is local therapy; no progestogen is indicated and asymptomatic surveillance is not recommended.",
+    "wrongAnswerRationales": {
+      "a": "Applies to the systemic-dose estradiol acetate ring.",
+      "b": "Low-dose local therapy does not treat VMS."
+    },
+    "learningObjective": "Differentiate local from systemic vaginal rings.",
+    "sourceFactIds": [
+      "f-femring-estring",
+      "f-vaginal-estrogen"
+    ],
+    "references": [
+      {
+        "sourceId": "gsm2020",
+        "section": "Vaginal estrogen"
+      }
+    ],
+    "examTrapTags": [
+      "Femring vs Estring"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m6-02",
+    "moduleId": "m6",
+    "difficulty": "recall",
+    "stem": "What is first-line therapy for mild genitourinary syndrome of menopause?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Regular vaginal moisturizers plus lubricants with sexual activity"
+      },
+      {
+        "id": "b",
+        "text": "Fractional CO2 laser"
+      },
+      {
+        "id": "c",
+        "text": "Systemic estradiol"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Nonhormone lubricants and long-acting moisturizers are first-line (Level A).",
+    "wrongAnswerRationales": {
+      "b": "Insufficient evidence; not recommended routinely.",
+      "c": "Local therapy is preferred for isolated GSM."
+    },
+    "learningObjective": "Apply the GSM treatment ladder.",
+    "sourceFactIds": [
+      "f-gsm-firstline",
+      "f-energy-devices"
+    ],
+    "references": [
+      {
+        "sourceId": "gsm2020",
+        "section": "Recommendations"
+      }
+    ],
+    "examTrapTags": [
+      "laser"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m6-03",
+    "moduleId": "m6",
+    "difficulty": "recall",
+    "stem": "Which finding is typical of GSM on office testing?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Vaginal pH below 4.5 with abundant lactobacilli"
+      },
+      {
+        "id": "b",
+        "text": "Vaginal pH greater than 5.0 with parabasal cells"
+      },
+      {
+        "id": "c",
+        "text": "Clue cells with positive whiff test"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Hypoestrogenism raises vaginal pH (>5.0) and increases parabasal cells with reduced lactobacilli; these tests support but are not required for diagnosis.",
+    "wrongAnswerRationales": {
+      "a": "Describes the estrogenized premenopausal vagina.",
+      "c": "Suggests bacterial vaginosis."
+    },
+    "learningObjective": "Recognize objective findings in GSM.",
+    "sourceFactIds": [
+      "f-gsm-def"
+    ],
+    "references": [
+      {
+        "sourceId": "gsm2020",
+        "section": "Diagnosis"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m6-04",
+    "moduleId": "m6",
+    "difficulty": "application",
+    "stem": "A 58-year-old with moderate dyspareunia due to GSM declines all vaginal products. Which prescription option fits her preference?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Prasterone 6.5 mg vaginal insert"
+      },
+      {
+        "id": "b",
+        "text": "Vaginal estradiol tablet"
+      },
+      {
+        "id": "c",
+        "text": "Ospemifene 60 mg orally daily"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Ospemifene is the only oral prescription option for moderate–severe dyspareunia due to menopause.",
+    "wrongAnswerRationales": {
+      "a": "Vaginal product.",
+      "b": "Vaginal product."
+    },
+    "learningObjective": "Select GSM therapy by route preference.",
+    "sourceFactIds": [
+      "f-gsm-other-rx"
+    ],
+    "references": [
+      {
+        "sourceId": "gsm2020",
+        "section": "Ospemifene"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m6-05",
+    "moduleId": "m6",
+    "difficulty": "application",
+    "stem": "A 66-year-old has had three culture-proven UTIs in the past year and signs of vaginal atrophy. Which intervention has evidence to reduce recurrence?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Low-dose vaginal estrogen"
+      },
+      {
+        "id": "b",
+        "text": "Systemic oral estradiol"
+      },
+      {
+        "id": "c",
+        "text": "Vaginal CO2 laser"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Low-dose vaginal estrogen may prevent recurrent UTIs in postmenopausal women. Systemic HT has no urinary indication.",
+    "wrongAnswerRationales": {
+      "b": "Not indicated for urinary outcomes.",
+      "c": "Insufficient evidence."
+    },
+    "learningObjective": "Manage recurrent UTI associated with GSM.",
+    "sourceFactIds": [
+      "f-urinary",
+      "f-vaginal-estrogen"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "Urinary"
+      }
+    ],
+    "examTrapTags": [
+      "UTI"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m6-06",
+    "moduleId": "m6",
+    "difficulty": "recall",
+    "stem": "Systemic hormone therapy has what effect on stress urinary incontinence?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "It improves stress incontinence and is FDA approved for it."
+      },
+      {
+        "id": "b",
+        "text": "It may worsen stress urinary incontinence."
+      },
+      {
+        "id": "c",
+        "text": "It has no relationship to urinary symptoms."
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Systemic HT does not improve urinary incontinence and may increase stress urinary incontinence.",
+    "wrongAnswerRationales": {
+      "a": "HT has no FDA urinary indication.",
+      "c": "An adverse association has been observed."
+    },
+    "learningObjective": "Recall urinary effects of systemic HT.",
+    "sourceFactIds": [
+      "f-urinary"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "Urinary"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m7-01",
+    "moduleId": "m7",
+    "difficulty": "application",
+    "stem": "A 53-year-old with chronic insomnia but no VMS asks for a sleep treatment. What is first-line?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Systemic estradiol"
+      },
+      {
+        "id": "b",
+        "text": "Long-term zolpidem"
+      },
+      {
+        "id": "c",
+        "text": "Cognitive behavioral therapy for insomnia (CBT-I)"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "CBT-I is first-line for insomnia in menopausal women with durable benefit. No HT is FDA approved for insomnia.",
+    "wrongAnswerRationales": {
+      "a": "Not indicated for insomnia without VMS.",
+      "b": "Not first-line."
+    },
+    "learningObjective": "Choose first-line insomnia therapy.",
+    "sourceFactIds": [
+      "f-sleep"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slides 155–156"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m7-02",
+    "moduleId": "m7",
+    "difficulty": "application",
+    "stem": "A 56-year-old postmenopausal woman has distressing low sexual desire. Her total testosterone is low-normal. How should HSDD be diagnosed?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Clinically, based on history and distress, after addressing contributing factors"
+      },
+      {
+        "id": "b",
+        "text": "By total testosterone below the female reference range"
+      },
+      {
+        "id": "c",
+        "text": "By free androgen index"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "HSDD is a clinical diagnosis. Serum testosterone should not be used to diagnose it; baseline testing is used to exclude high levels before therapy.",
+    "wrongAnswerRationales": {
+      "b": "No threshold defines androgen insufficiency.",
+      "c": "Also not diagnostic."
+    },
+    "learningObjective": "Diagnose HSDD appropriately.",
+    "sourceFactIds": [
+      "f-hsdd"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slides 60, 164"
+      }
+    ],
+    "examTrapTags": [
+      "testosterone level"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m7-03",
+    "moduleId": "m7",
+    "difficulty": "recall",
+    "stem": "Which statement about hormone therapy and cognition is correct?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "HT is recommended to prevent dementia if started within 10 years of menopause."
+      },
+      {
+        "id": "b",
+        "text": "HT is not recommended at any age to prevent or treat cognitive decline or dementia."
+      },
+      {
+        "id": "c",
+        "text": "HT reduces dementia when initiated after age 65."
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "HT is not recommended for cognitive indications at any age; initiation ≥65 increased dementia in WHIMS.",
+    "wrongAnswerRationales": {
+      "a": "The timing hypothesis does not create a dementia indication.",
+      "c": "WHIMS showed increased risk."
+    },
+    "learningObjective": "Counsel on HT and cognition.",
+    "sourceFactIds": [
+      "f-cognition"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "Cognition"
+      }
+    ],
+    "examTrapTags": [
+      "dementia"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m7-04",
+    "moduleId": "m7",
+    "difficulty": "application",
+    "stem": "A perimenopausal woman with a history of major depression has 3 weeks of depressed mood, anhedonia and poor sleep. What is first-line management?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Estradiol alone as the antidepressant"
+      },
+      {
+        "id": "b",
+        "text": "Watchful waiting until menopause"
+      },
+      {
+        "id": "c",
+        "text": "Antidepressant therapy and/or psychotherapy"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Antidepressants and psychotherapy are first-line for MDD in midlife. Estrogen is not FDA approved for mood.",
+    "wrongAnswerRationales": {
+      "a": "May help some perimenopausal women but not first-line or approved.",
+      "b": "Delays treatment of a major depressive episode."
+    },
+    "learningObjective": "Manage perimenopausal depression.",
+    "sourceFactIds": [
+      "f-mood"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slides 150–152"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m7-05",
+    "moduleId": "m7",
+    "difficulty": "application",
+    "stem": "A woman on oral conjugated estrogens reports new low libido. Which change is most likely to help by a hormonal mechanism?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Switch to transdermal estradiol"
+      },
+      {
+        "id": "b",
+        "text": "Increase the oral estrogen dose"
+      },
+      {
+        "id": "c",
+        "text": "Add oral DHEA supplements"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Oral estrogen increases SHBG and reduces bioavailable testosterone; transdermal estradiol has less effect on SHBG.",
+    "wrongAnswerRationales": {
+      "b": "Would further increase SHBG.",
+      "c": "Oral DHEA supplements are not recommended."
+    },
+    "learningObjective": "Recognize route effects on SHBG and libido.",
+    "sourceFactIds": [
+      "f-route",
+      "f-hsdd"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 127"
+      }
+    ],
+    "examTrapTags": [
+      "route"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m8-01",
+    "moduleId": "m8",
+    "difficulty": "application",
+    "stem": "A 58-year-old with a prior unprovoked PE has bothersome VMS. What is the most appropriate initial treatment?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Oral estradiol with micronized progesterone"
+      },
+      {
+        "id": "b",
+        "text": "A nonhormone therapy such as an SSRI/SNRI, gabapentin or an NK antagonist"
+      },
+      {
+        "id": "c",
+        "text": "CEE with bazedoxifene"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "With VTE history, systemic oral HT is contraindicated; nonhormone therapy is first-line. Low-dose transdermal therapy may be considered later with hematology input.",
+    "wrongAnswerRationales": {
+      "a": "Contraindicated.",
+      "c": "Bazedoxifene increases VTE risk."
+    },
+    "learningObjective": "Manage VMS in women with VTE history.",
+    "sourceFactIds": [
+      "f-vte-history"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slides 95, 140"
+      }
+    ],
+    "examTrapTags": [
+      "VTE"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m8-02",
+    "moduleId": "m8",
+    "difficulty": "recall",
+    "stem": "Which is an FDA-approved indication for systemic hormone therapy?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Primary prevention of coronary heart disease"
+      },
+      {
+        "id": "b",
+        "text": "Prevention of type 2 diabetes"
+      },
+      {
+        "id": "c",
+        "text": "Prevention of postmenopausal osteoporosis"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "HT is FDA approved for prevention of osteoporosis. It is not approved for CHD prevention; diabetes reduction is observed but not an indication.",
+    "wrongAnswerRationales": {
+      "a": "Not an indication.",
+      "b": "Observed effect only."
+    },
+    "learningObjective": "Recall FDA-approved HT indications.",
+    "sourceFactIds": [
+      "f-cvd",
+      "f-diabetes",
+      "f-ht-bone"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022"
+      }
+    ],
+    "examTrapTags": [
+      "indications"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m8-03",
+    "moduleId": "m8",
+    "difficulty": "application",
+    "stem": "A 52-year-old whose mother and sister had VTE wants systemic HT. She has never had a clot. What is the best next step?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Consider thrombophilia evaluation and favor transdermal therapy if HT is chosen"
+      },
+      {
+        "id": "b",
+        "text": "Start oral estrogen without further evaluation"
+      },
+      {
+        "id": "c",
+        "text": "Systemic HT is absolutely contraindicated"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "A family history of VTE warrants consideration of thrombophilia evaluation; thrombophilia without prior VTE is a relative contraindication, and transdermal routes carry lower risk.",
+    "wrongAnswerRationales": {
+      "b": "Ignores significant family history.",
+      "c": "It is a relative, not absolute, contraindication."
+    },
+    "learningObjective": "Assess thrombotic risk before HT.",
+    "sourceFactIds": [
+      "f-vte-history",
+      "f-route"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 140"
+      }
+    ],
+    "examTrapTags": [
+      "VTE"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m8-04",
+    "moduleId": "m8",
+    "difficulty": "analysis",
+    "stem": "A 68-year-old woman, 18 years postmenopause, with hypertension and dyslipidemia asks to start systemic HT to 'protect her heart.' What is the best response?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "HT is appropriate because it is cardioprotective at any age."
+      },
+      {
+        "id": "b",
+        "text": "HT is not indicated for cardioprotection, and initiation this far from menopause carries higher absolute CV risk."
+      },
+      {
+        "id": "c",
+        "text": "HT is appropriate if delivered transdermally."
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "HT has no CVD prevention indication; initiation >60 or >10 years from menopause carries higher absolute CHD, stroke and VTE risk.",
+    "wrongAnswerRationales": {
+      "a": "Incorrect.",
+      "c": "Route does not create a cardioprotective indication."
+    },
+    "learningObjective": "Counsel on HT and CVD prevention.",
+    "sourceFactIds": [
+      "f-cvd",
+      "f-timing"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "Cardiovascular disease"
+      }
+    ],
+    "examTrapTags": [
+      "cardioprotection"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m8-05",
+    "moduleId": "m8",
+    "difficulty": "recall",
+    "stem": "What degree of weight loss improves blood pressure, lipids, glucose and fatty liver in midlife women with obesity?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "At least 20% of body weight"
+      },
+      {
+        "id": "b",
+        "text": "Only weight loss to normal BMI"
+      },
+      {
+        "id": "c",
+        "text": "3% to 10% of body weight"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Modest weight loss of 3–10% improves metabolic parameters, fatty liver, chronic pain and CVD risk.",
+    "wrongAnswerRationales": {
+      "a": "Benefits occur well below this.",
+      "b": "Not required for benefit."
+    },
+    "learningObjective": "Counsel on benefits of modest weight loss.",
+    "sourceFactIds": [
+      "f-weight"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 171"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m9-01",
+    "moduleId": "m9",
+    "difficulty": "application",
+    "stem": "A 70-year-old has received denosumab for 4 years and wants to stop. What is the most appropriate plan?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Transition to a bisphosphonate to prevent rebound bone loss"
+      },
+      {
+        "id": "b",
+        "text": "Stop denosumab and recheck DXA in 2 years"
+      },
+      {
+        "id": "c",
+        "text": "Take a 1-year drug holiday, then restart"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Stopping denosumab causes rebound bone turnover with rapid BMD loss and multiple vertebral fractures; follow-on therapy (usually a bisphosphonate) is needed.",
+    "wrongAnswerRationales": {
+      "b": "Risks rebound vertebral fractures.",
+      "c": "Holidays apply to bisphosphonates, not denosumab."
+    },
+    "learningObjective": "Manage denosumab discontinuation.",
+    "sourceFactIds": [
+      "f-denosumab"
+    ],
+    "references": [
+      {
+        "sourceId": "osteo2021",
+        "section": "Discontinuing denosumab"
+      }
+    ],
+    "examTrapTags": [
+      "denosumab rebound"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m9-02",
+    "moduleId": "m9",
+    "difficulty": "application",
+    "stem": "A 67-year-old has taken alendronate for 5 years. She has never fractured and her hip T-score is now −1.9. What is reasonable?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Switch to romosozumab"
+      },
+      {
+        "id": "b",
+        "text": "Consider a bisphosphonate drug holiday with reassessment"
+      },
+      {
+        "id": "c",
+        "text": "Continue indefinitely without reassessment"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "A holiday can be considered after 3–5 years in low/moderate-risk patients who no longer meet treatment criteria, with monitoring.",
+    "wrongAnswerRationales": {
+      "a": "Reserved for very high risk.",
+      "c": "Ongoing reassessment is recommended."
+    },
+    "learningObjective": "Apply bisphosphonate holiday criteria.",
+    "sourceFactIds": [
+      "f-bisphos"
+    ],
+    "references": [
+      {
+        "sourceId": "osteo2021",
+        "section": "Duration of therapy"
+      }
+    ],
+    "examTrapTags": [
+      "drug holiday"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m9-03",
+    "moduleId": "m9",
+    "difficulty": "recall",
+    "stem": "A woman's femoral neck T-score improves from −2.7 to −2.3 on treatment. What is her diagnosis?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Low bone mass (osteopenia)"
+      },
+      {
+        "id": "b",
+        "text": "Normal bone density"
+      },
+      {
+        "id": "c",
+        "text": "Osteoporosis — the diagnosis persists"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Once osteoporosis is diagnosed, improvement in T-score above −2.5 on therapy does not remove the diagnosis.",
+    "wrongAnswerRationales": {
+      "a": "The diagnosis is not reclassified.",
+      "b": "Incorrect."
+    },
+    "learningObjective": "Interpret BMD changes on treatment.",
+    "sourceFactIds": [
+      "f-tscore"
+    ],
+    "references": [
+      {
+        "sourceId": "osteo2021",
+        "section": "Diagnosis"
+      }
+    ],
+    "examTrapTags": [
+      "diagnosis persists"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m9-04",
+    "moduleId": "m9",
+    "difficulty": "recall",
+    "stem": "What total daily calcium intake is recommended for postmenopausal women?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "About 1,200 mg, preferably from diet"
+      },
+      {
+        "id": "b",
+        "text": "At least 2,000 mg from supplements"
+      },
+      {
+        "id": "c",
+        "text": "About 600 mg"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Total calcium ~1,200 mg/day, diet preferred; higher intake mostly from supplements is not recommended and increased kidney stones in WHI.",
+    "wrongAnswerRationales": {
+      "b": "2,000 mg is the upper limit and supplements raise stone risk.",
+      "c": "Below recommendations."
+    },
+    "learningObjective": "Recall calcium recommendations.",
+    "sourceFactIds": [
+      "f-calcium"
+    ],
+    "references": [
+      {
+        "sourceId": "osteo2021",
+        "section": "Calcium and vitamin D"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m9-05",
+    "moduleId": "m9",
+    "difficulty": "application",
+    "stem": "A 72-year-old has two recent vertebral compression fractures and a lumbar T-score of −3.6. Which sequence is most appropriate?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Calcium and vitamin D alone"
+      },
+      {
+        "id": "b",
+        "text": "An osteoanabolic agent first, followed by an antiresorptive"
+      },
+      {
+        "id": "c",
+        "text": "Raloxifene alone"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Very-high-risk patients benefit from anabolic therapy first, then an antiresorptive to maintain gains.",
+    "wrongAnswerRationales": {
+      "a": "Nonpharmacologic measures do not substantially increase BMD.",
+      "c": "Insufficient for very high risk."
+    },
+    "learningObjective": "Sequence therapy in very-high-risk osteoporosis.",
+    "sourceFactIds": [
+      "f-anabolic"
+    ],
+    "references": [
+      {
+        "sourceId": "osteo2021",
+        "section": "Sequential therapy"
+      }
+    ],
+    "examTrapTags": [
+      "sequencing"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m9-06",
+    "moduleId": "m9",
+    "difficulty": "application",
+    "stem": "A 57-year-old stopping HT after 6 years asks about her bones. What should you anticipate?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "BMD gains persist for at least 10 years"
+      },
+      {
+        "id": "b",
+        "text": "Stopping estrogen increases BMD"
+      },
+      {
+        "id": "c",
+        "text": "BMD declines toward pretreatment levels within 1–2 years; reassess fracture risk"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "After discontinuation of estrogen, BMD declines within 1–2 years; consider DXA and alternative therapy if at risk.",
+    "wrongAnswerRationales": {
+      "a": "Protection is lost relatively quickly.",
+      "b": "Incorrect."
+    },
+    "learningObjective": "Plan bone care after stopping HT.",
+    "sourceFactIds": [
+      "f-ht-bone"
+    ],
+    "references": [
+      {
+        "sourceId": "osteo2021",
+        "section": "Discontinuing HT"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m10-01",
+    "moduleId": "m10",
+    "difficulty": "application",
+    "stem": "A 34-year-old with POI and no contraindications asks about hormone therapy. What is the best recommendation?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "HT at least until the average age of natural menopause (~52), possibly at higher-than-standard doses"
+      },
+      {
+        "id": "b",
+        "text": "Avoid HT because of WHI breast cancer findings"
+      },
+      {
+        "id": "c",
+        "text": "HT for 2 years only, then stop"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Women with POI should receive HT at least until the average age of menopause unless contraindicated; WHI does not apply and higher doses may be needed.",
+    "wrongAnswerRationales": {
+      "b": "WHI did not include this population.",
+      "c": "Too short."
+    },
+    "learningObjective": "Manage HT in POI.",
+    "sourceFactIds": [
+      "f-poi-ht"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "Premature and early menopause"
+      }
+    ],
+    "examTrapTags": [
+      "POI"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m10-02",
+    "moduleId": "m10",
+    "difficulty": "analysis",
+    "stem": "A 61-year-old on anastrozole for ER-positive breast cancer has severe dyspareunia despite 3 months of moisturizers and lubricants. What is the next step?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Start systemic estradiol"
+      },
+      {
+        "id": "b",
+        "text": "Discuss low-dose vaginal estrogen or vaginal DHEA with her oncologist, with pelvic floor therapy and dilators as adjuncts"
+      },
+      {
+        "id": "c",
+        "text": "Prescribe ospemifene"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "For GSM refractory to nonhormone measures, low-dose vaginal ET or DHEA may be considered with oncology after shared decision-making; AI users warrant extra caution.",
+    "wrongAnswerRationales": {
+      "a": "Systemic HT is generally not advised.",
+      "c": "Not approved in the US for women with a breast cancer history."
+    },
+    "learningObjective": "Manage GSM in breast cancer survivors.",
+    "sourceFactIds": [
+      "f-breast-survivor-gsm",
+      "f-gsm-other-rx"
+    ],
+    "references": [
+      {
+        "sourceId": "gsm2020",
+        "section": "Breast cancer"
+      },
+      {
+        "sourceId": "acog-co659"
+      }
+    ],
+    "examTrapTags": [
+      "breast cancer survivor"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m10-03",
+    "moduleId": "m10",
+    "difficulty": "application",
+    "stem": "A 40-year-old BRCA1 carrier without breast cancer had risk-reducing BSO and hysterectomy. She has severe VMS. What is most appropriate?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Avoid HT because it negates the breast cancer risk reduction from surgery"
+      },
+      {
+        "id": "b",
+        "text": "Estrogen plus progestogen"
+      },
+      {
+        "id": "c",
+        "text": "Estrogen-alone therapy until about the average age of menopause"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Observational data suggest BRCA carriers after RRBSO receive HT benefits with minimal to no increase in breast cancer risk; without a uterus, ET alone is used.",
+    "wrongAnswerRationales": {
+      "a": "HT does not appear to negate the risk reduction.",
+      "b": "No progestogen is needed without a uterus."
+    },
+    "learningObjective": "Counsel BRCA carriers after RRBSO.",
+    "sourceFactIds": [
+      "f-brca"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "Summary"
+      }
+    ],
+    "examTrapTags": [
+      "BRCA"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m10-04",
+    "moduleId": "m10",
+    "difficulty": "recall",
+    "stem": "Without atypia, the risk of endometrial hyperplasia progressing to cancer over 20 years is less than 5%. With atypia, the risk rises to approximately:",
+    "choices": [
+      {
+        "id": "a",
+        "text": "10%"
+      },
+      {
+        "id": "b",
+        "text": "28%"
+      },
+      {
+        "id": "c",
+        "text": "60%"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Hyperplasia with atypia carries ~28% progression risk vs <5% without atypia.",
+    "wrongAnswerRationales": {
+      "a": "Underestimates.",
+      "c": "Overestimates."
+    },
+    "learningObjective": "Recall progression risk of endometrial hyperplasia.",
+    "sourceFactIds": [
+      "f-endometrial-survivor"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 133"
+      }
+    ],
+    "examTrapTags": [
+      "percentages"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m10-05",
+    "moduleId": "m10",
+    "difficulty": "application",
+    "stem": "A survivor of early-stage, low-grade endometrial cancer has GSM that has not responded to moisturizers. Which is most appropriate?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "No hormonal therapy of any kind is permitted"
+      },
+      {
+        "id": "b",
+        "text": "Low-dose vaginal estrogen after discussion with her oncologist"
+      },
+      {
+        "id": "c",
+        "text": "Systemic estrogen-alone therapy as first choice"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "For select endometrial cancer survivors who fail nonhormone therapy, low-dose vaginal ET appears safe in observational data and improves quality of life.",
+    "wrongAnswerRationales": {
+      "a": "Too restrictive for low-grade, early-stage disease.",
+      "c": "Local therapy is preferred for isolated GSM."
+    },
+    "learningObjective": "Manage GSM in endometrial cancer survivors.",
+    "sourceFactIds": [
+      "f-endometrial-survivor"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "Summary"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  }
+]

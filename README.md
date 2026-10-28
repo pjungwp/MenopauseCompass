@@ -52,7 +52,7 @@ src/content/
   topics.ts         11 patient topic hubs
   faqs.ts           31 patient FAQs
   modules.ts        10 Quick Review modules (one-minute review, traps, tables, pearls)
-  questions.json    54 practice items (3-option format, mirrors the current exam)
+  questions.json    154 practice items (3-option format, mirrors the current exam)
   certification.ts  MSCP facts with lastVerified / validThrough
   prompts.ts        AI Toolkit prompts (PROVE-based)
   visitQuestions.ts Visit-prep question bank

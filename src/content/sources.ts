@@ -135,6 +135,19 @@ export const sources: Source[] = [
     currency: 'review-needed'
   },
   {
+    id: 'uspstf',
+    code: 'USPSTF',
+    title: 'US Preventive Services Task Force recommendation statements (breast 2024, cervical 2018, colorectal 2021, lung 2021)',
+    publisher: 'US Preventive Services Task Force',
+    year: 2024,
+    citation: 'USPSTF recommendation topics: breast cancer screening (2024), cervical cancer screening (2018), colorectal cancer screening (2021), lung cancer screening (2021).',
+    url: 'https://www.uspreventiveservicestaskforce.org/uspstf/recommendation-topics',
+    type: 'guideline',
+    lastChecked: '2026-10-28',
+    currency: 'current',
+    note: 'Check for updated recommendations before each exam cycle.'
+  },
+  {
     id: 'mscp-handbook-2027',
     code: 'MSCP Handbook',
     title: 'MSCP Candidate Handbook 2027',

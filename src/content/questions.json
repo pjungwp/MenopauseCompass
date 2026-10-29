@@ -6719,5 +6719,3001 @@
     "verifier": null,
     "reviewedAt": null,
     "status": "draft"
+  },
+  {
+    "id": "q-m1-16",
+    "moduleId": "m1",
+    "difficulty": "application",
+    "stem": "A 41-year-old with regular 28-day cycles of unchanged length is found to have a low AMH and low antral follicle count during a fertility evaluation. What is her STRAW+10 stage?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stage −3a (late reproductive)"
+      },
+      {
+        "id": "b",
+        "text": "Stage −3b (late reproductive)"
+      },
+      {
+        "id": "c",
+        "text": "Stage −2 (early menopause transition)"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "In −3b, cycles are regular and unchanged, early-follicular FSH is normal, but AMH and antral follicle count are already low. Ovarian reserve declines before bleeding changes.",
+    "wrongAnswerRationales": {
+      "a": "−3a requires subtle cycle changes (usually shorter cycles) and a raised early-follicular FSH.",
+      "c": "−2 requires persistent ≥7-day variability in cycle length."
+    },
+    "learningObjective": "Distinguish stage −3b from −3a.",
+    "sourceFactIds": [
+      "f-straw"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [
+      "−3b vs −3a"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-17",
+    "moduleId": "m1",
+    "difficulty": "application",
+    "stem": "A 44-year-old's cycles have gradually shortened from 28 to 24 days but remain regular. Her day-3 FSH is mildly elevated. What is her STRAW+10 stage?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stage −3a (late reproductive)"
+      },
+      {
+        "id": "b",
+        "text": "Stage −3b (late reproductive)"
+      },
+      {
+        "id": "c",
+        "text": "Stage −2 (early menopause transition)"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Stage −3a is marked by subtle changes in flow or length (typically shorter cycles) and a raised early-follicular FSH, with low AMH, inhibin B and antral follicle count.",
+    "wrongAnswerRationales": {
+      "b": "In −3b, cycle length is unchanged and FSH is normal.",
+      "c": "Shorter but regular cycles are not the persistent ≥7-day variability of −2."
+    },
+    "learningObjective": "Recognize stage −3a.",
+    "sourceFactIds": [
+      "f-straw"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [
+      "shorter cycles = transition"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-18",
+    "moduleId": "m1",
+    "difficulty": "application",
+    "stem": "A 47-year-old's recent cycle lengths were 24, 35, 26 and 38 days. She has not skipped 60 days. What is her STRAW+10 stage?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stage −3a (late reproductive)"
+      },
+      {
+        "id": "b",
+        "text": "Stage −1 (late menopause transition)"
+      },
+      {
+        "id": "c",
+        "text": "Stage −2 (early menopause transition)"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Entry into −2 is a persistent difference of 7 days or more in the length of consecutive cycles. Early-follicular FSH is elevated but variable.",
+    "wrongAnswerRationales": {
+      "a": "−3a has subtle changes, not persistent ≥7-day variability.",
+      "b": "−1 requires an interval of amenorrhea of 60 days or more."
+    },
+    "learningObjective": "Recognize the early menopause transition.",
+    "sourceFactIds": [
+      "f-straw"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-19",
+    "moduleId": "m1",
+    "difficulty": "application",
+    "stem": "A 49-year-old with irregular cycles for 2 years last bled 75 days ago. What is her STRAW+10 stage?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stage −2 (early menopause transition)"
+      },
+      {
+        "id": "b",
+        "text": "Stage +1a (early postmenopause)"
+      },
+      {
+        "id": "c",
+        "text": "Stage −1 (late menopause transition)"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Stage −1 begins with ≥60 days of amenorrhea, lasts about 1–3 years, and is when vasomotor symptoms become likely.",
+    "wrongAnswerRationales": {
+      "a": "An interval of amenorrhea of 60 days or more moves her to −1.",
+      "b": "Postmenopause requires 12 months of amenorrhea after the FMP."
+    },
+    "learningObjective": "Recognize the late menopause transition.",
+    "sourceFactIds": [
+      "f-straw"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-20",
+    "moduleId": "m1",
+    "difficulty": "application",
+    "stem": "A 49-year-old has had 90 days of amenorrhea and hot flashes. Her FSH today is 9 IU/L with an estradiol of 180 pg/mL. How should this be interpreted?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "She has moved back to the late reproductive stage"
+      },
+      {
+        "id": "b",
+        "text": "She remains in the late menopause transition"
+      },
+      {
+        "id": "c",
+        "text": "The low FSH points to another cause of amenorrhea"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "In −1, FSH is sometimes in the menopausal range and sometimes normal (often with high estradiol), and anovulation is frequent. Bleeding criteria remain primary.",
+    "wrongAnswerRationales": {
+      "a": "Staging is based on bleeding pattern; a single normal FSH does not reverse it.",
+      "c": "Normal FSH with high estradiol is a recognized pattern in the late transition."
+    },
+    "learningObjective": "Interpret fluctuating FSH in the late transition.",
+    "sourceFactIds": [
+      "f-straw",
+      "f-no-hormone-testing"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [
+      "single FSH"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-21",
+    "moduleId": "m1",
+    "difficulty": "recall",
+    "stem": "In STRAW+10, how is 'persistent' cycle variability defined for the early menopause transition?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Recurrence within 10 cycles of the first variable cycle"
+      },
+      {
+        "id": "b",
+        "text": "Variability present in 3 consecutive cycles in a row"
+      },
+      {
+        "id": "c",
+        "text": "Variability lasting for at least 12 calendar months"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "A single irregular cycle is not enough. A ≥7-day difference in consecutive cycle lengths that recurs within 10 cycles marks entry into −2.",
+    "wrongAnswerRationales": {
+      "b": "This is not the STRAW+10 definition.",
+      "c": "The criterion is recurrence within 10 cycles, not a time span."
+    },
+    "learningObjective": "Recall the definition of persistence in STRAW+10.",
+    "sourceFactIds": [
+      "f-straw"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-22",
+    "moduleId": "m1",
+    "difficulty": "recall",
+    "stem": "Approximately how long does the late menopause transition (stage −1) last?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1 to 3 years"
+      },
+      {
+        "id": "b",
+        "text": "About 6 months"
+      },
+      {
+        "id": "c",
+        "text": "5 to 8 years"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Stage −1 runs from the first ≥60-day interval of amenorrhea to the FMP.",
+    "wrongAnswerRationales": {
+      "b": "Too short; −1 typically lasts 1–3 years.",
+      "c": "This is the approximate length of the whole early postmenopause."
+    },
+    "learningObjective": "Recall the duration of stage −1.",
+    "sourceFactIds": [
+      "f-straw"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-23",
+    "moduleId": "m1",
+    "difficulty": "application",
+    "stem": "A 52-year-old's final menstrual period was 18 months ago, and she has frequent hot flashes. What is her STRAW+10 stage?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stage +1a"
+      },
+      {
+        "id": "b",
+        "text": "Stage +1c"
+      },
+      {
+        "id": "c",
+        "text": "Stage +1b"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "+1a and +1b each last about 1 year and are periods of rapid FSH and estradiol change, when vasomotor symptoms are most likely.",
+    "wrongAnswerRationales": {
+      "a": "+1a is the first 12 months after the FMP.",
+      "b": "+1c begins about 2 years after the FMP, when FSH and estradiol stabilize."
+    },
+    "learningObjective": "Distinguish the substages of early postmenopause.",
+    "sourceFactIds": [
+      "f-straw"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [
+      "+1a vs +1b"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-24",
+    "moduleId": "m1",
+    "difficulty": "application",
+    "stem": "A 55-year-old's final menstrual period was 4 years ago. What is her STRAW+10 stage?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stage +1b"
+      },
+      {
+        "id": "b",
+        "text": "Stage +1c"
+      },
+      {
+        "id": "c",
+        "text": "Stage +2"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "+1c lasts 3–6 years and is when high FSH and low estradiol stabilize.",
+    "wrongAnswerRationales": {
+      "a": "+1b ends about 2 years after the FMP.",
+      "c": "+2 begins after early postmenopause ends, roughly 5–8 years after the FMP."
+    },
+    "learningObjective": "Recognize stage +1c.",
+    "sourceFactIds": [
+      "f-straw"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-25",
+    "moduleId": "m1",
+    "difficulty": "application",
+    "stem": "A 64-year-old's final menstrual period was 13 years ago. She reports worsening vaginal dryness. What is her STRAW+10 stage?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stage +1c (early postmenopause)"
+      },
+      {
+        "id": "b",
+        "text": "Stage +2 (late postmenopause)"
+      },
+      {
+        "id": "c",
+        "text": "Stage +1b (early postmenopause)"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Stage +2 covers the remaining lifespan. Endocrine change is limited, and urogenital atrophy becomes increasingly prevalent.",
+    "wrongAnswerRationales": {
+      "a": "+1c ends about 5–8 years after the FMP.",
+      "c": "+1b ends about 2 years after the FMP."
+    },
+    "learningObjective": "Recognize late postmenopause.",
+    "sourceFactIds": [
+      "f-straw",
+      "f-gsm-def"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-26",
+    "moduleId": "m1",
+    "difficulty": "recall",
+    "stem": "How long does the entire early postmenopause (+1a through +1c) last?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "About 5 to 8 years"
+      },
+      {
+        "id": "b",
+        "text": "About 12 months"
+      },
+      {
+        "id": "c",
+        "text": "About 2 years"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "+1a (about 1 year) plus +1b (about 1 year) plus +1c (3–6 years) equals roughly 5–8 years.",
+    "wrongAnswerRationales": {
+      "b": "This is the length of +1a alone.",
+      "c": "This is +1a plus +1b only."
+    },
+    "learningObjective": "Recall the duration of early postmenopause.",
+    "sourceFactIds": [
+      "f-straw"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-27",
+    "moduleId": "m1",
+    "difficulty": "recall",
+    "stem": "Under STRAW+10, which span does the term 'perimenopause' cover?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "From stage −3a until the final menstrual period"
+      },
+      {
+        "id": "b",
+        "text": "Only the 12 months after the final menstrual period"
+      },
+      {
+        "id": "c",
+        "text": "From stage −2 through the first 12 months after the FMP (+1a)"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Perimenopause means 'around menopause.' It starts with the early transition and ends 12 months after the FMP.",
+    "wrongAnswerRationales": {
+      "a": "Perimenopause begins at −2 and extends past the FMP.",
+      "b": "That is +1a alone."
+    },
+    "learningObjective": "Define perimenopause using STRAW+10.",
+    "sourceFactIds": [
+      "f-straw"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [
+      "perimenopause = transition"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-28",
+    "moduleId": "m1",
+    "difficulty": "recall",
+    "stem": "What FSH level does STRAW+10 cite as a supportive criterion for the late menopause transition?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Above 40 IU/L on two occasions"
+      },
+      {
+        "id": "b",
+        "text": "Above 10 IU/L on cycle day 3"
+      },
+      {
+        "id": "c",
+        "text": "Above 25 IU/L on a random blood draw"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "The >25 IU/L threshold depends on the assay and is supportive only; bleeding criteria remain principal.",
+    "wrongAnswerRationales": {
+      "a": "That threshold comes from older definitions; STRAW+10 uses >25 IU/L.",
+      "b": "This is a marker of diminished reserve, not of the late transition."
+    },
+    "learningObjective": "Recall supportive FSH criteria in STRAW+10.",
+    "sourceFactIds": [
+      "f-straw",
+      "f-no-hormone-testing"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [
+      "FSH 40 diagnostic"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-29",
+    "moduleId": "m1",
+    "difficulty": "recall",
+    "stem": "According to STRAW+10, in which stages are vasomotor symptoms 'most likely'?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Stage −2 (early transition)"
+      },
+      {
+        "id": "b",
+        "text": "Stages +1a and +1b"
+      },
+      {
+        "id": "c",
+        "text": "Stage +2 (late postmenopause)"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "STRAW+10 descriptors: VMS likely in −1, most likely in +1a and +1b, and increasing urogenital atrophy in +2.",
+    "wrongAnswerRationales": {
+      "a": "VMS may occur, but they are listed as 'likely' only from −1.",
+      "c": "+2 is characterized by increasing urogenital atrophy."
+    },
+    "learningObjective": "Link symptoms to STRAW+10 stages.",
+    "sourceFactIds": [
+      "f-straw",
+      "f-vms-burden"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-30",
+    "moduleId": "m1",
+    "difficulty": "application",
+    "stem": "A 46-year-old had a hysterectomy with ovarian conservation 1 month ago. She asks whether she is in menopause. What is the best approach?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Wait at least 3 months, then use biomarkers and symptoms"
+      },
+      {
+        "id": "b",
+        "text": "Stage her by bleeding history over the next 12 months"
+      },
+      {
+        "id": "c",
+        "text": "Diagnose menopause now, because the uterus is removed"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Women after hysterectomy or endometrial ablation cannot be staged by bleeding. STRAW+10 advises waiting at least 3 months after surgery before endocrine assessment. Usually only pre- versus postmenopause can be determined, often with repeat testing.",
+    "wrongAnswerRationales": {
+      "b": "She can no longer bleed, so bleeding criteria cannot be used.",
+      "c": "Ovarian function persists after hysterectomy with ovarian conservation."
+    },
+    "learningObjective": "Stage women who cannot be staged by bleeding.",
+    "sourceFactIds": [
+      "f-straw",
+      "f-no-hormone-testing"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-31",
+    "moduleId": "m1",
+    "difficulty": "application",
+    "stem": "A 48-year-old with PCOS has had cycles every 50 to 90 days all her life. She asks if she is in the late menopause transition. What is correct?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Bleeding criteria do not apply; use biomarkers and symptoms"
+      },
+      {
+        "id": "b",
+        "text": "She is in stage −1 because her cycles exceed 60 days"
+      },
+      {
+        "id": "c",
+        "text": "She is in stage −2 because her cycle lengths vary widely"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "STRAW+10 states that menstrual criteria are not applicable to women with PCOS. Staging relies on supportive criteria and clinical context.",
+    "wrongAnswerRationales": {
+      "b": "Her lifelong oligomenorrhea is from PCOS, not ovarian aging.",
+      "c": "Her variability is not a change from her baseline."
+    },
+    "learningObjective": "Recognize the limits of STRAW+10 in PCOS.",
+    "sourceFactIds": [
+      "f-straw"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [
+      "PCOS staging"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-32",
+    "moduleId": "m1",
+    "difficulty": "application",
+    "stem": "A 43-year-old's menses resumed 8 months after chemotherapy for lymphoma. What does this mean for staging?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Her reproductive function has fully recovered"
+      },
+      {
+        "id": "b",
+        "text": "She is postmenopausal regardless of any bleeding"
+      },
+      {
+        "id": "c",
+        "text": "Bleeding alone is unreliable; add biomarkers and age"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "After chemotherapy or with chronic illness, STRAW+10 recommends combining menstrual criteria, supportive biomarkers and age.",
+    "wrongAnswerRationales": {
+      "a": "Resumed bleeding after gonadotoxic treatment may not reflect normal function.",
+      "b": "She may still have ovarian activity."
+    },
+    "learningObjective": "Stage women after gonadotoxic therapy.",
+    "sourceFactIds": [
+      "f-straw",
+      "f-poi-def"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-33",
+    "moduleId": "m1",
+    "difficulty": "recall",
+    "stem": "Which statement about the applicability of STRAW+10 is correct?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "It applies only to women aged 40 to 58"
+      },
+      {
+        "id": "b",
+        "text": "It applies regardless of age, ethnicity, body size or lifestyle"
+      },
+      {
+        "id": "c",
+        "text": "It does not apply to women who smoke or have obesity"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Smoking and BMI affect hormone levels and timing, but STRAW+10 can still be used. Exceptions requiring modification include PCOS, POI, hysterectomy or ablation, chronic illness and chemotherapy.",
+    "wrongAnswerRationales": {
+      "a": "Age is not a staging criterion.",
+      "c": "Smoking and BMI change timing, not the trajectory of staging."
+    },
+    "learningObjective": "Recall the population to which STRAW+10 applies.",
+    "sourceFactIds": [
+      "f-straw"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-34",
+    "moduleId": "m1",
+    "difficulty": "recall",
+    "stem": "Which describes the endocrine course during stages +1a and +1b?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "FSH and estradiol are already stable from the FMP onward"
+      },
+      {
+        "id": "b",
+        "text": "FSH and estradiol keep changing until they stabilize"
+      },
+      {
+        "id": "c",
+        "text": "FSH falls back toward premenopausal levels within a year"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "+1a and +1b each last about 1 year and end when FSH and estradiol stabilize. +1c then shows stable high FSH and low estradiol.",
+    "wrongAnswerRationales": {
+      "a": "Stabilization occurs at +1c, about 2 years after the FMP.",
+      "c": "FSH remains elevated; a modest decline occurs only in the very elderly."
+    },
+    "learningObjective": "Describe hormone trajectories in early postmenopause.",
+    "sourceFactIds": [
+      "f-straw"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-35",
+    "moduleId": "m1",
+    "difficulty": "recall",
+    "stem": "Which endocrine change is described in very elderly women in late postmenopause (+2)?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A modest decline in FSH"
+      },
+      {
+        "id": "b",
+        "text": "A second rise in estradiol from ovarian recovery"
+      },
+      {
+        "id": "c",
+        "text": "A rise in AMH"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "STRAW+10 notes limited endocrine change in +2, with evidence that FSH declines in the very old. Somatic aging dominates this stage.",
+    "wrongAnswerRationales": {
+      "b": "Ovarian estradiol production does not recover.",
+      "c": "AMH remains undetectable."
+    },
+    "learningObjective": "Recall hormone changes in late postmenopause.",
+    "sourceFactIds": [
+      "f-straw"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m1-36",
+    "moduleId": "m1",
+    "difficulty": "application",
+    "stem": "A 43-year-old's cycles are regular, but her early-follicular FSH is 14 IU/L and AMH is low. She asks if she is perimenopausal. What is the best answer?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yes, because an FSH above 10 IU/L defines perimenopause"
+      },
+      {
+        "id": "b",
+        "text": "Yes, because a low AMH alone means the transition began"
+      },
+      {
+        "id": "c",
+        "text": "Not yet, because her cycles are still regular"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Perimenopause begins at −2, defined by persistent ≥7-day cycle variability. Raised FSH and low AMH with unchanged cycles fit −3.",
+    "wrongAnswerRationales": {
+      "a": "Hormone markers are supportive only; regular cycles mean she has not entered the transition.",
+      "b": "AMH falls in −3b, before the transition."
+    },
+    "learningObjective": "Avoid staging by hormone levels alone.",
+    "sourceFactIds": [
+      "f-straw",
+      "f-no-hormone-testing"
+    ],
+    "references": [
+      {
+        "sourceId": "straw10",
+        "section": "Figure 1 and text"
+      }
+    ],
+    "examTrapTags": [
+      "hormone-based staging"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-17",
+    "moduleId": "m4",
+    "difficulty": "application",
+    "stem": "A woman taking oral conjugated estrogens 0.625 mg daily wants to switch to a patch. Which transdermal estradiol dose is roughly equivalent?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "0.025 mg/day"
+      },
+      {
+        "id": "b",
+        "text": "0.1 mg/day"
+      },
+      {
+        "id": "c",
+        "text": "0.05 mg/day"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Standard doses: CEE 0.625 mg ≈ oral estradiol 1 mg ≈ transdermal estradiol 0.05 mg/day. Low doses: CEE 0.3 mg ≈ oral estradiol 0.5 mg ≈ transdermal 0.025 mg/day.",
+    "wrongAnswerRationales": {
+      "a": "This is a low dose, roughly equivalent to CEE 0.3 mg.",
+      "b": "This is a high dose."
+    },
+    "learningObjective": "Convert between estrogen formulations.",
+    "sourceFactIds": [
+      "f-route"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "formulations"
+      },
+      {
+        "sourceId": "prove-concierge",
+        "section": "dose equivalence"
+      }
+    ],
+    "examTrapTags": [
+      "dose equivalence"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-18",
+    "moduleId": "m4",
+    "difficulty": "recall",
+    "stem": "Which regimen is considered low-dose systemic estrogen?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Oral estradiol 1 mg daily"
+      },
+      {
+        "id": "b",
+        "text": "Oral estradiol 0.5 mg daily"
+      },
+      {
+        "id": "c",
+        "text": "Conjugated estrogens 0.625 mg daily"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Low-dose options (CEE 0.3 mg, oral estradiol 0.5 mg, transdermal 0.025 mg/day) often control VMS with fewer side effects, such as breast tenderness and bleeding.",
+    "wrongAnswerRationales": {
+      "a": "This is a standard dose.",
+      "c": "This is the standard dose used in WHI."
+    },
+    "learningObjective": "Identify low-dose systemic estrogen.",
+    "sourceFactIds": [
+      "f-route",
+      "f-ht-most-effective"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "formulations"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-19",
+    "moduleId": "m4",
+    "difficulty": "recall",
+    "stem": "Why does oral estradiol produce a higher estrone-to-estradiol ratio than transdermal estradiol?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "First-pass gut and liver metabolism converts estradiol to estrone"
+      },
+      {
+        "id": "b",
+        "text": "Transdermal estradiol is converted to estrone in the skin"
+      },
+      {
+        "id": "c",
+        "text": "Oral estradiol is mostly excreted unchanged"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "First-pass hepatic exposure also explains the effects of oral estrogen on SHBG, TBG, angiotensinogen, CRP, triglycerides and clotting factors.",
+    "wrongAnswerRationales": {
+      "b": "Transdermal delivery keeps a near-physiologic estradiol-to-estrone ratio.",
+      "c": "Oral estradiol is extensively metabolized."
+    },
+    "learningObjective": "Explain the pharmacokinetics of oral versus transdermal estradiol.",
+    "sourceFactIds": [
+      "f-route"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "route of administration"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-20",
+    "moduleId": "m4",
+    "difficulty": "recall",
+    "stem": "What effect does oral estrogen have on lipids compared with transdermal estrogen?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "It raises HDL and triglycerides and lowers LDL"
+      },
+      {
+        "id": "b",
+        "text": "It lowers both HDL and triglycerides"
+      },
+      {
+        "id": "c",
+        "text": "It has the same neutral lipid effect as transdermal"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Oral estrogen's hepatic first-pass effect raises HDL and triglycerides and lowers LDL. Transdermal is preferred when hypertriglyceridemia is a concern.",
+    "wrongAnswerRationales": {
+      "b": "Oral estrogen raises both.",
+      "c": "Transdermal is largely neutral; oral has hepatic effects."
+    },
+    "learningObjective": "Compare lipid effects by estrogen route.",
+    "sourceFactIds": [
+      "f-route"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "route of administration"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-21",
+    "moduleId": "m4",
+    "difficulty": "application",
+    "stem": "A grandmother who babysits her toddler grandson wants a transdermal estradiol spray applied to the forearm. What is the most important counseling point?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The spray must be paired with an oral estrogen dose"
+      },
+      {
+        "id": "b",
+        "text": "No progestogen is needed with a spray if she has a uterus"
+      },
+      {
+        "id": "c",
+        "text": "Children and pets can absorb estradiol by skin contact"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "The forearm spray (Evamist) carries a warning about secondary exposure: premature puberty in children and adverse effects in pets. Gels share this risk. Advise covering the site and washing hands.",
+    "wrongAnswerRationales": {
+      "a": "The spray is a complete systemic estrogen dose.",
+      "b": "All systemic estrogen requires endometrial protection."
+    },
+    "learningObjective": "Counsel on secondary exposure from topical estrogen.",
+    "sourceFactIds": [
+      "f-route"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 82"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-22",
+    "moduleId": "m4",
+    "difficulty": "recall",
+    "stem": "The 14-µg/day weekly estradiol patch (Menostar) is FDA approved for which indication?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Moderate to severe vasomotor symptoms"
+      },
+      {
+        "id": "b",
+        "text": "Prevention of postmenopausal osteoporosis only"
+      },
+      {
+        "id": "c",
+        "text": "Treatment of GSM"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Ultra-low-dose transdermal estradiol preserves BMD. It is not indicated for VMS.",
+    "wrongAnswerRationales": {
+      "a": "The dose is too low for VMS; it is approved only for bone.",
+      "c": "It is not approved for GSM."
+    },
+    "learningObjective": "Recall the indication of ultra-low-dose transdermal estradiol.",
+    "sourceFactIds": [
+      "f-ht-bone",
+      "f-route"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "bone"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-23",
+    "moduleId": "m4",
+    "difficulty": "application",
+    "stem": "A 55-year-old taking spironolactone and an ACE inhibitor asks about estradiol/drospirenone for VMS. What is the key concern?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "It does not adequately protect the endometrium"
+      },
+      {
+        "id": "b",
+        "text": "It can cause hyperkalemia (antimineralocorticoid)"
+      },
+      {
+        "id": "c",
+        "text": "It strongly raises blood pressure in most women"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Drospirenone is a spironolactone analog. With potassium-sparing diuretics, ACE inhibitors, ARBs or NSAIDs, monitor potassium.",
+    "wrongAnswerRationales": {
+      "a": "The combination product protects the endometrium.",
+      "c": "Its antimineralocorticoid effect, if anything, lowers blood pressure."
+    },
+    "learningObjective": "Recognize progestin-specific interactions.",
+    "sourceFactIds": [
+      "f-progestogen"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "progestogens"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-24",
+    "moduleId": "m4",
+    "difficulty": "recall",
+    "stem": "Which FDA-approved product combines estradiol with micronized progesterone in a single oral capsule?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Estradiol 1 mg/progesterone 100 mg (Bijuva)"
+      },
+      {
+        "id": "b",
+        "text": "Conjugated estrogens/medroxyprogesterone (Prempro)"
+      },
+      {
+        "id": "c",
+        "text": "Conjugated estrogens/bazedoxifene (Duavee)"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Bijuva is the only FDA-approved single-pill combination of body-identical estradiol and progesterone. It is used continuously in women with a uterus.",
+    "wrongAnswerRationales": {
+      "b": "MPA is a synthetic progestin.",
+      "c": "Bazedoxifene is a SERM, not a progestogen."
+    },
+    "learningObjective": "Identify FDA-approved bioidentical combination products.",
+    "sourceFactIds": [
+      "f-progestogen",
+      "f-compounded"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "formulations"
+      }
+    ],
+    "examTrapTags": [
+      "bioidentical"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-25",
+    "moduleId": "m4",
+    "difficulty": "recall",
+    "stem": "Which combination estrogen–progestogen patch is available in the US?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Estradiol/micronized progesterone patch"
+      },
+      {
+        "id": "b",
+        "text": "Conjugated estrogens/bazedoxifene patch"
+      },
+      {
+        "id": "c",
+        "text": "Estradiol/levonorgestrel patch"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Combination patches let women with a uterus use transdermal estrogen with a built-in progestin. Progesterone creams do not protect the endometrium. Estradiol/norethindrone acetate patches are also available.",
+    "wrongAnswerRationales": {
+      "a": "There is no transdermal progesterone product.",
+      "b": "CEE/BZA is oral only."
+    },
+    "learningObjective": "Know the transdermal combination options.",
+    "sourceFactIds": [
+      "f-progestogen",
+      "f-route"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "formulations"
+      },
+      {
+        "sourceId": "az2024",
+        "section": "slide 85"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-26",
+    "moduleId": "m4",
+    "difficulty": "application",
+    "stem": "A 52-year-old on carbamazepine still has bothersome VMS despite oral estradiol 1 mg daily. What is the most likely explanation?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Carbamazepine blocks estrogen receptors in the hypothalamus"
+      },
+      {
+        "id": "b",
+        "text": "Oral estradiol is ineffective for VMS in women with epilepsy"
+      },
+      {
+        "id": "c",
+        "text": "Carbamazepine induces CYP3A4 and speeds estrogen metabolism"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Enzyme inducers such as carbamazepine, phenytoin, rifampin and St John's wort lower oral estrogen exposure. A higher dose or the transdermal route (avoiding first-pass metabolism) may help.",
+    "wrongAnswerRationales": {
+      "a": "Its effect is pharmacokinetic, not receptor-mediated.",
+      "b": "Estradiol works; exposure is lowered by enzyme induction."
+    },
+    "learningObjective": "Recognize enzyme-inducer interactions with HT.",
+    "sourceFactIds": [
+      "f-route"
+    ],
+    "references": [
+      {
+        "sourceId": "prove-concierge",
+        "section": "HT drug interactions"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-27",
+    "moduleId": "m4",
+    "difficulty": "recall",
+    "stem": "Which is a standard medroxyprogesterone acetate regimen for endometrial protection?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "2.5 mg for 5 days per month"
+      },
+      {
+        "id": "b",
+        "text": "2.5 mg daily, continuously"
+      },
+      {
+        "id": "c",
+        "text": "10 mg once every 3 months"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Continuous low-dose MPA gives amenorrhea over time. Cyclic regimens give withdrawal bleeding. Cyclic alternative: 5–10 mg for 12–14 days per month.",
+    "wrongAnswerRationales": {
+      "a": "Too short; cyclic regimens need at least 12–14 days.",
+      "c": "Quarterly regimens are not standard."
+    },
+    "learningObjective": "Prescribe standard MPA regimens.",
+    "sourceFactIds": [
+      "f-progestogen"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "progestogens"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-28",
+    "moduleId": "m4",
+    "difficulty": "application",
+    "stem": "A 51-year-old on estradiol with cyclic oral MPA has bloating, irritability and low mood during the progestin days. Which option will most reduce systemic progestogen exposure?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A 52-mg levonorgestrel IUD"
+      },
+      {
+        "id": "b",
+        "text": "Increase MPA to 10 mg for 14 days"
+      },
+      {
+        "id": "c",
+        "text": "Stop the progestogen and continue estradiol alone"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "The LNG-IUD delivers progestin mainly to the endometrium. Other options for progestogen intolerance are switching to micronized progesterone or using CEE/bazedoxifene.",
+    "wrongAnswerRationales": {
+      "b": "A higher dose would likely worsen symptoms.",
+      "c": "Unopposed estrogen with a uterus is unsafe."
+    },
+    "learningObjective": "Manage progestogen intolerance.",
+    "sourceFactIds": [
+      "f-progestogen"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slides 86, 111"
+      },
+      {
+        "sourceId": "ht2022",
+        "section": "progestogens"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-29",
+    "moduleId": "m4",
+    "difficulty": "recall",
+    "stem": "Why is oral micronized progesterone usually taken at bedtime?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Its neuroactive metabolites can cause drowsiness and dizziness"
+      },
+      {
+        "id": "b",
+        "text": "It is absorbed only on an empty stomach at night"
+      },
+      {
+        "id": "c",
+        "text": "Nighttime dosing prevents peanut allergy reactions"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Metabolites such as allopregnanolone act at GABA-A receptors and cause sedation. Some women find this helps sleep.",
+    "wrongAnswerRationales": {
+      "b": "The timing is for sedation, not absorption.",
+      "c": "Timing does not affect allergy; it is avoided with peanut allergy."
+    },
+    "learningObjective": "Counsel on micronized progesterone administration.",
+    "sourceFactIds": [
+      "f-progestogen"
+    ],
+    "references": [
+      {
+        "sourceId": "ht2022",
+        "section": "progestogens"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-30",
+    "moduleId": "m4",
+    "difficulty": "application",
+    "stem": "A healthy 46-year-old nonsmoker with irregular cycles, hot flashes and a need for contraception has normal blood pressure and BMI. Which option best meets both needs?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Standard-dose HT with oral estradiol and progesterone"
+      },
+      {
+        "id": "b",
+        "text": "Fezolinetant"
+      },
+      {
+        "id": "c",
+        "text": "A low-dose combined hormonal contraceptive"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Ethinyl estradiol in contraceptives is far more potent than HT estrogens and suppresses ovulation. Low-dose CHCs suit healthy, lean, nonsmoking perimenopausal women and also manage irregular bleeding.",
+    "wrongAnswerRationales": {
+      "a": "HT doses do not reliably prevent ovulation.",
+      "b": "It treats VMS but provides no contraception and is not for use in pregnancy."
+    },
+    "learningObjective": "Choose therapy for perimenopausal VMS plus contraception.",
+    "sourceFactIds": [
+      "f-contraception",
+      "f-ht-most-effective"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 75"
+      }
+    ],
+    "examTrapTags": [
+      "HT as contraception"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m4-31",
+    "moduleId": "m4",
+    "difficulty": "recall",
+    "stem": "Which estrogen is not available in any FDA-approved US product?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Estradiol"
+      },
+      {
+        "id": "b",
+        "text": "Estriol"
+      },
+      {
+        "id": "c",
+        "text": "Conjugated estrogens"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Estriol is found only in compounded preparations in the US. FDA-approved body-identical estradiol and progesterone are available.",
+    "wrongAnswerRationales": {
+      "a": "Available in many FDA-approved oral, transdermal and vaginal forms.",
+      "c": "FDA approved for VMS, GSM and osteoporosis prevention."
+    },
+    "learningObjective": "Identify estrogens without FDA approval.",
+    "sourceFactIds": [
+      "f-compounded"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slides 79–80, 91"
+      }
+    ],
+    "examTrapTags": [
+      "bioidentical"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m5-17",
+    "moduleId": "m5",
+    "difficulty": "application",
+    "stem": "Before starting fezolinetant, a 53-year-old's ALT is 2.5 times the upper limit of normal. What is appropriate?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Start fezolinetant and recheck ALT in 1 month"
+      },
+      {
+        "id": "b",
+        "text": "Do not start fezolinetant; choose another option"
+      },
+      {
+        "id": "c",
+        "text": "Start at half the dose with weekly liver tests"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "The fezolinetant label says not to start if ALT or AST is ≥2× ULN or total bilirubin is ≥2× ULN.",
+    "wrongAnswerRationales": {
+      "a": "Do not start if ALT or AST is ≥2× ULN.",
+      "c": "No reduced-dose regimen exists."
+    },
+    "learningObjective": "Apply baseline hepatic criteria for fezolinetant.",
+    "sourceFactIds": [
+      "f-nk-antagonists"
+    ],
+    "references": [
+      {
+        "sourceId": "fda-fezolinetant-2024",
+        "section": "prescribing information"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m5-18",
+    "moduleId": "m5",
+    "difficulty": "analysis",
+    "stem": "A woman taking fezolinetant for 2 months has an ALT of 3.5 times the upper limit of normal, a normal bilirubin and no symptoms. What does the label advise?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Repeat liver tests more often until they resolve"
+      },
+      {
+        "id": "b",
+        "text": "Stop fezolinetant permanently now"
+      },
+      {
+        "id": "c",
+        "text": "No change; values below 5× ULN need no action"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Stop if transaminases are >5× ULN, or >3× ULN with total bilirubin >2× ULN, or if there are symptoms of liver injury. For >3× ULN alone, test more frequently.",
+    "wrongAnswerRationales": {
+      "b": "Stopping is required at >5× ULN, or >3× ULN with bilirubin >2× ULN.",
+      "c": "Values above 3× ULN need closer monitoring."
+    },
+    "learningObjective": "Act on transaminase elevations during fezolinetant therapy.",
+    "sourceFactIds": [
+      "f-nk-antagonists"
+    ],
+    "references": [
+      {
+        "sourceId": "fda-fezolinetant-2024",
+        "section": "prescribing information"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m5-19",
+    "moduleId": "m5",
+    "difficulty": "application",
+    "stem": "A 61-year-old with an eGFR of 40 mL/min/1.73 m² and no liver disease asks about fezolinetant. What is correct?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "It is contraindicated at any eGFR below 60"
+      },
+      {
+        "id": "b",
+        "text": "The dose must be halved to 22.5 mg daily"
+      },
+      {
+        "id": "c",
+        "text": "It can be used at the usual 45-mg dose"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Fezolinetant contraindications: eGFR below 30, known cirrhosis and concurrent CYP1A2 inhibitors. No adjustment is needed for mild or moderate renal impairment.",
+    "wrongAnswerRationales": {
+      "a": "It is contraindicated only below 30 (severe impairment or ESKD).",
+      "b": "No renal dose adjustment exists."
+    },
+    "learningObjective": "Apply renal criteria for fezolinetant.",
+    "sourceFactIds": [
+      "f-nk-antagonists"
+    ],
+    "references": [
+      {
+        "sourceId": "fda-fezolinetant-2024",
+        "section": "prescribing information"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m5-20",
+    "moduleId": "m5",
+    "difficulty": "application",
+    "stem": "A woman taking diltiazem, a moderate CYP3A4 inhibitor, is starting elinzanetant. What dose is appropriate?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "120 mg once daily at bedtime"
+      },
+      {
+        "id": "b",
+        "text": "Elinzanetant is contraindicated"
+      },
+      {
+        "id": "c",
+        "text": "60 mg once daily at bedtime"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Elinzanetant is metabolized by CYP3A4. Avoid strong inhibitors (and grapefruit juice) and strong or moderate inducers. With moderate inhibitors, use 60 mg.",
+    "wrongAnswerRationales": {
+      "a": "This is the usual dose; moderate CYP3A4 inhibitors require a reduction.",
+      "b": "Only strong inhibitors are avoided; moderate inhibitors need a lower dose."
+    },
+    "learningObjective": "Adjust elinzanetant for CYP3A4 interactions.",
+    "sourceFactIds": [
+      "f-nk-antagonists"
+    ],
+    "references": [
+      {
+        "sourceId": "fda-elinzanetant-2025",
+        "section": "prescribing information"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m5-21",
+    "moduleId": "m5",
+    "difficulty": "application",
+    "stem": "A woman taking clarithromycin for 10 days asks whether she can keep taking elinzanetant. What is correct?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Continue at 120 mg, since macrolides do not interact"
+      },
+      {
+        "id": "b",
+        "text": "Avoid it while she takes clarithromycin"
+      },
+      {
+        "id": "c",
+        "text": "Double the dose to overcome the interaction"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Strong CYP3A4 inhibitors (eg, clarithromycin, itraconazole, ritonavir) and grapefruit juice substantially raise elinzanetant exposure.",
+    "wrongAnswerRationales": {
+      "a": "Clarithromycin is a strong CYP3A4 inhibitor.",
+      "c": "Inhibition raises exposure; doubling would be dangerous."
+    },
+    "learningObjective": "Recognize strong CYP3A4 inhibitor interactions with elinzanetant.",
+    "sourceFactIds": [
+      "f-nk-antagonists"
+    ],
+    "references": [
+      {
+        "sourceId": "fda-elinzanetant-2025",
+        "section": "prescribing information"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m5-22",
+    "moduleId": "m5",
+    "difficulty": "application",
+    "stem": "A 48-year-old still having occasional periods wants to start elinzanetant. What must be addressed first?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Excluding pregnancy and arranging contraception"
+      },
+      {
+        "id": "b",
+        "text": "Measuring FSH to confirm postmenopausal status"
+      },
+      {
+        "id": "c",
+        "text": "Nothing; elinzanetant has no reproductive risks"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Elinzanetant is contraindicated in pregnancy. Women who could conceive need effective contraception during use and for 2 weeks after stopping. Contraception continues for 2 weeks after stopping.",
+    "wrongAnswerRationales": {
+      "b": "FSH does not exclude pregnancy or ovulation.",
+      "c": "Pregnancy is a contraindication because it may cause pregnancy loss."
+    },
+    "learningObjective": "Apply reproductive precautions for elinzanetant.",
+    "sourceFactIds": [
+      "f-nk-antagonists",
+      "f-contraception"
+    ],
+    "references": [
+      {
+        "sourceId": "fda-elinzanetant-2025",
+        "section": "prescribing information"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m5-23",
+    "moduleId": "m5",
+    "difficulty": "recall",
+    "stem": "How does hepatic monitoring for elinzanetant compare with fezolinetant?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Elinzanetant needs fewer checks (baseline and 3 months)"
+      },
+      {
+        "id": "b",
+        "text": "Both require monthly liver tests for the first year"
+      },
+      {
+        "id": "c",
+        "text": "Neither requires any baseline or follow-up liver tests"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Both agents share the same thresholds: do not start at ≥2× ULN; stop at >5× ULN, or >3× ULN with bilirubin >2× ULN. Only fezolinetant has a boxed warning. Fezolinetant: monthly for 3 months, then at 6 and 9 months.",
+    "wrongAnswerRationales": {
+      "b": "Neither requires monthly testing for a year.",
+      "c": "Both labels require baseline hepatic tests."
+    },
+    "learningObjective": "Compare monitoring for NK antagonists.",
+    "sourceFactIds": [
+      "f-nk-antagonists"
+    ],
+    "references": [
+      {
+        "sourceId": "fda-fezolinetant-2024",
+        "section": "prescribing information"
+      },
+      {
+        "sourceId": "fda-elinzanetant-2025",
+        "section": "prescribing information"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m5-24",
+    "moduleId": "m5",
+    "difficulty": "application",
+    "stem": "A 47-year-old taking tamoxifen wants an antidepressant that will also help her hot flashes. Which should be avoided?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Venlafaxine"
+      },
+      {
+        "id": "b",
+        "text": "Escitalopram"
+      },
+      {
+        "id": "c",
+        "text": "Bupropion"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Strong CYP2D6 inhibitors (paroxetine, fluoxetine, bupropion) can reduce conversion of tamoxifen to its active metabolite endoxifen.",
+    "wrongAnswerRationales": {
+      "a": "A weak CYP2D6 inhibitor; preferred with tamoxifen.",
+      "b": "A weak CYP2D6 inhibitor; acceptable with tamoxifen."
+    },
+    "learningObjective": "Avoid strong CYP2D6 inhibitors with tamoxifen.",
+    "sourceFactIds": [
+      "f-ssri-tamoxifen"
+    ],
+    "references": [
+      {
+        "sourceId": "nh2023",
+        "section": "tamoxifen"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m5-25",
+    "moduleId": "m5",
+    "difficulty": "recall",
+    "stem": "Which adverse effects most limit oxybutynin for vasomotor symptoms?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "QT prolongation and drug-induced hepatotoxicity"
+      },
+      {
+        "id": "b",
+        "text": "Dry mouth, constipation and cognitive effects"
+      },
+      {
+        "id": "c",
+        "text": "Weight gain and hyperglycemia in most users"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Oxybutynin (eg, 2.5–5 mg twice daily or ER 15 mg) reduces VMS but is anticholinergic. Long-term use has been linked to dementia risk, so avoid it in older women.",
+    "wrongAnswerRationales": {
+      "a": "These are not characteristic of oxybutynin.",
+      "c": "These are not typical adverse effects."
+    },
+    "learningObjective": "Recall oxybutynin adverse effects.",
+    "sourceFactIds": [
+      "f-oxybutynin"
+    ],
+    "references": [
+      {
+        "sourceId": "nh2023",
+        "section": "oxybutynin"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m5-26",
+    "moduleId": "m5",
+    "difficulty": "recall",
+    "stem": "Why is clonidine not recommended for vasomotor symptoms in the 2023 statement?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "It is contraindicated in all women with hypertension"
+      },
+      {
+        "id": "b",
+        "text": "It has modest benefit and troublesome adverse effects"
+      },
+      {
+        "id": "c",
+        "text": "It strongly inhibits CYP2D6 and interacts with tamoxifen"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Better-tolerated, more effective nonhormone options exist. Stopping clonidine abruptly can cause rebound hypertension.",
+    "wrongAnswerRationales": {
+      "a": "It is an antihypertensive; the issue is its side-effect profile.",
+      "c": "That is not why it is disfavored."
+    },
+    "learningObjective": "Explain why clonidine is not recommended.",
+    "sourceFactIds": [
+      "f-nh-not-recommended"
+    ],
+    "references": [
+      {
+        "sourceId": "nh2023",
+        "section": "not recommended"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m6-17",
+    "moduleId": "m6",
+    "difficulty": "recall",
+    "stem": "What is the usual regimen for a 10-µg vaginal estradiol tablet or insert?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Daily for 2 weeks, then twice weekly"
+      },
+      {
+        "id": "b",
+        "text": "Twice weekly from the start, indefinitely"
+      },
+      {
+        "id": "c",
+        "text": "Daily indefinitely"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "An initial daily phase restores the epithelium. Twice-weekly maintenance continues as long as symptoms persist.",
+    "wrongAnswerRationales": {
+      "b": "Most regimens start with a 2-week daily loading phase.",
+      "c": "Maintenance is twice weekly."
+    },
+    "learningObjective": "Prescribe vaginal estradiol tablets correctly.",
+    "sourceFactIds": [
+      "f-vaginal-estrogen"
+    ],
+    "references": [
+      {
+        "sourceId": "gsm2020",
+        "section": "vaginal estrogen"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m6-18",
+    "moduleId": "m6",
+    "difficulty": "recall",
+    "stem": "Which vaginal ring is approved for vasomotor symptoms?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Estradiol 2-mg ring (Estring)"
+      },
+      {
+        "id": "b",
+        "text": "Prasterone vaginal insert"
+      },
+      {
+        "id": "c",
+        "text": "Estradiol acetate ring (Femring)"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Femring (0.05 or 0.1 mg/day) is systemic and requires a progestogen if the uterus is present. Estring is local.",
+    "wrongAnswerRationales": {
+      "a": "It releases ~7.5 µg/day, a local dose for GSM only.",
+      "b": "Prasterone is for dyspareunia, not VMS."
+    },
+    "learningObjective": "Distinguish systemic from local vaginal rings.",
+    "sourceFactIds": [
+      "f-femring-estring"
+    ],
+    "references": [
+      {
+        "sourceId": "gsm2020",
+        "section": "vaginal estrogen"
+      },
+      {
+        "sourceId": "az2024",
+        "section": "slides 83, 127"
+      }
+    ],
+    "examTrapTags": [
+      "Femring vs Estring"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m6-19",
+    "moduleId": "m6",
+    "difficulty": "application",
+    "stem": "A 62-year-old is prescribed estradiol 0.01% cream for GSM. Which regimen matches the low-dose approach recommended in the 2020 GSM statement?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "2–4 g daily indefinitely"
+      },
+      {
+        "id": "b",
+        "text": "4 g twice daily for 6 months"
+      },
+      {
+        "id": "c",
+        "text": "0.5–1 g one to three times weekly"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Lower, less frequent cream doses are effective for GSM and minimize systemic absorption.",
+    "wrongAnswerRationales": {
+      "a": "This higher labeled dose is no longer needed for maintenance.",
+      "b": "Far higher exposure than needed."
+    },
+    "learningObjective": "Use low-dose vaginal cream regimens.",
+    "sourceFactIds": [
+      "f-vaginal-estrogen"
+    ],
+    "references": [
+      {
+        "sourceId": "gsm2020",
+        "section": "vaginal estrogen"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m6-20",
+    "moduleId": "m6",
+    "difficulty": "application",
+    "stem": "A woman taking ospemifene develops vaginal candidiasis. Which treatment should be avoided?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A topical azole cream"
+      },
+      {
+        "id": "b",
+        "text": "Oral fluconazole"
+      },
+      {
+        "id": "c",
+        "text": "Vaginal boric acid"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Fluconazole inhibits CYP3A4 and CYP2C9 and markedly raises ospemifene levels. Ospemifene should not be used with estrogens or other SERMs.",
+    "wrongAnswerRationales": {
+      "a": "Topical treatment avoids the systemic interaction.",
+      "c": "No pharmacokinetic interaction with ospemifene."
+    },
+    "learningObjective": "Recognize ospemifene drug interactions.",
+    "sourceFactIds": [
+      "f-gsm-other-rx"
+    ],
+    "references": [
+      {
+        "sourceId": "gsm2020",
+        "section": "ospemifene"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m6-21",
+    "moduleId": "m6",
+    "difficulty": "recall",
+    "stem": "What is the most common adverse effect of intravaginal prasterone?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Vaginal discharge"
+      },
+      {
+        "id": "b",
+        "text": "Hot flashes"
+      },
+      {
+        "id": "c",
+        "text": "Endometrial hyperplasia"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Prasterone is melted at body temperature. Serum steroid levels stay in the postmenopausal range.",
+    "wrongAnswerRationales": {
+      "b": "Typical of ospemifene, not prasterone.",
+      "c": "Endometrial safety was confirmed at 1 year."
+    },
+    "learningObjective": "Recall prasterone adverse effects.",
+    "sourceFactIds": [
+      "f-gsm-other-rx"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 84"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m6-22",
+    "moduleId": "m6",
+    "difficulty": "recall",
+    "stem": "What is the lowest-dose FDA-approved vaginal estradiol product?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A 4-µg estradiol softgel insert"
+      },
+      {
+        "id": "b",
+        "text": "A 10-µg estradiol tablet"
+      },
+      {
+        "id": "c",
+        "text": "The 2-mg estradiol ring"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Softgel inserts (4 and 10 µg) have minimal systemic absorption and need no applicator.",
+    "wrongAnswerRationales": {
+      "b": "Available, but a 4-µg insert is lower.",
+      "c": "It releases ~7.5 µg/day."
+    },
+    "learningObjective": "Recall vaginal estrogen dose options.",
+    "sourceFactIds": [
+      "f-vaginal-estrogen"
+    ],
+    "references": [
+      {
+        "sourceId": "gsm2020",
+        "section": "vaginal estrogen"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m6-23",
+    "moduleId": "m6",
+    "difficulty": "recall",
+    "stem": "How does systemic absorption of vaginal estrogen change over the first weeks of treatment?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "It rises steadily for as long as treatment continues"
+      },
+      {
+        "id": "b",
+        "text": "It stays constant regardless of epithelial condition"
+      },
+      {
+        "id": "c",
+        "text": "It is highest at first, then falls as tissue matures"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Even early absorption from low-dose products keeps serum estradiol near the postmenopausal range.",
+    "wrongAnswerRationales": {
+      "a": "Absorption decreases as the epithelium thickens.",
+      "b": "Epithelial maturity changes absorption."
+    },
+    "learningObjective": "Explain vaginal estrogen absorption kinetics.",
+    "sourceFactIds": [
+      "f-vaginal-estrogen"
+    ],
+    "references": [
+      {
+        "sourceId": "gsm2020",
+        "section": "systemic absorption"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m7-16",
+    "moduleId": "m7",
+    "difficulty": "application",
+    "stem": "A premenopausal woman prescribed flibanserin asks about alcohol. What is correct?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Alcohol is safe in any amount with flibanserin"
+      },
+      {
+        "id": "b",
+        "text": "Wait at least 2 hours after 1–2 drinks before dosing"
+      },
+      {
+        "id": "c",
+        "text": "She must abstain completely for the whole course"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Flibanserin 100 mg is taken at bedtime. The alcohol interaction causes hypotension and syncope. She should skip the dose after 3 or more drinks.",
+    "wrongAnswerRationales": {
+      "a": "Alcohol raises the risk of severe hypotension and syncope.",
+      "c": "Current labeling allows limited alcohol with timing rules."
+    },
+    "learningObjective": "Counsel on flibanserin and alcohol.",
+    "sourceFactIds": [
+      "f-hsdd"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 161"
+      },
+      {
+        "sourceId": "prove-concierge",
+        "section": "HSDD pharmacotherapy"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m7-17",
+    "moduleId": "m7",
+    "difficulty": "recall",
+    "stem": "Flibanserin is contraindicated with which of the following?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "CYP1A2 inhibitors such as fluvoxamine"
+      },
+      {
+        "id": "b",
+        "text": "Moderate or strong CYP3A4 inhibitors"
+      },
+      {
+        "id": "c",
+        "text": "Concurrent low-dose vaginal estrogen"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "CYP3A4 inhibitors raise flibanserin levels, causing severe hypotension and syncope. Hepatic impairment is also a contraindication.",
+    "wrongAnswerRationales": {
+      "a": "That contraindication belongs to fezolinetant.",
+      "c": "No interaction with vaginal estrogen."
+    },
+    "learningObjective": "Recall flibanserin contraindications.",
+    "sourceFactIds": [
+      "f-hsdd"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 161"
+      },
+      {
+        "sourceId": "prove-concierge",
+        "section": "HSDD pharmacotherapy"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m7-18",
+    "moduleId": "m7",
+    "difficulty": "recall",
+    "stem": "How is bremelanotide used?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Subcutaneously, at least 45 minutes before sex"
+      },
+      {
+        "id": "b",
+        "text": "Orally at bedtime every night, with or without food"
+      },
+      {
+        "id": "c",
+        "text": "As a daily transdermal gel applied to the thigh"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Bremelanotide is a melanocortin receptor agonist. Adverse effects include nausea, flushing, transient BP increase (avoid with uncontrolled hypertension or CVD) and focal hyperpigmentation. No more than 1 dose per 24 hours or 8 doses per month.",
+    "wrongAnswerRationales": {
+      "b": "That is flibanserin.",
+      "c": "That describes testosterone used off-label."
+    },
+    "learningObjective": "Recall how bremelanotide is administered.",
+    "sourceFactIds": [
+      "f-hsdd"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 161"
+      },
+      {
+        "sourceId": "prove-concierge",
+        "section": "HSDD pharmacotherapy"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m7-19",
+    "moduleId": "m7",
+    "difficulty": "recall",
+    "stem": "Which pairing of drug and mechanism is correct?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Bremelanotide: dopamine D2 receptor antagonist"
+      },
+      {
+        "id": "b",
+        "text": "Flibanserin: phosphodiesterase-5 inhibitor"
+      },
+      {
+        "id": "c",
+        "text": "Flibanserin: 5-HT1A agonist, 5-HT2A antagonist"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Flibanserin acts centrally on serotonin receptors to modulate desire. Bremelanotide activates melanocortin (MC4) receptors.",
+    "wrongAnswerRationales": {
+      "a": "Bremelanotide is a melanocortin receptor agonist.",
+      "b": "PDE-5 inhibitors have not been shown effective for female HSDD."
+    },
+    "learningObjective": "Recall mechanisms of HSDD drugs.",
+    "sourceFactIds": [
+      "f-hsdd"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 161"
+      },
+      {
+        "sourceId": "prove-concierge",
+        "section": "HSDD pharmacotherapy"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m7-20",
+    "moduleId": "m7",
+    "difficulty": "recall",
+    "stem": "When should flibanserin be stopped for lack of effect?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "If there is no improvement after 1 week"
+      },
+      {
+        "id": "b",
+        "text": "Only after 12 months of therapy"
+      },
+      {
+        "id": "c",
+        "text": "If there is no improvement after 8 weeks"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Response to flibanserin develops over weeks. Testosterone for postmenopausal HSDD is reassessed at about 6 months.",
+    "wrongAnswerRationales": {
+      "a": "Benefit takes several weeks.",
+      "b": "Too long to continue an ineffective drug."
+    },
+    "learningObjective": "Know trial durations for HSDD drugs.",
+    "sourceFactIds": [
+      "f-hsdd"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 161"
+      },
+      {
+        "sourceId": "prove-concierge",
+        "section": "HSDD pharmacotherapy"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m9-17",
+    "moduleId": "m9",
+    "difficulty": "recall",
+    "stem": "How should delayed-release risedronate (Atelvia) be taken, unlike other oral bisphosphonates?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Fasting, 30 minutes before breakfast"
+      },
+      {
+        "id": "b",
+        "text": "Immediately after breakfast"
+      },
+      {
+        "id": "c",
+        "text": "At bedtime with calcium"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Its enteric coating and EDTA allow dosing after food. It is still taken with water while upright.",
+    "wrongAnswerRationales": {
+      "a": "That applies to immediate-release bisphosphonates.",
+      "c": "Bisphosphonates should not be taken lying down or with calcium."
+    },
+    "learningObjective": "Recall exceptions to bisphosphonate administration rules.",
+    "sourceFactIds": [
+      "f-bisphos"
+    ],
+    "references": [
+      {
+        "sourceId": "osteo2021",
+        "section": "pharmacologic therapy"
+      }
+    ],
+    "examTrapTags": [
+      "fasting rule"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m9-18",
+    "moduleId": "m9",
+    "difficulty": "recall",
+    "stem": "Ibandronate has proven efficacy for which outcome?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Vertebral fracture reduction only"
+      },
+      {
+        "id": "b",
+        "text": "Hip and vertebral fracture reduction"
+      },
+      {
+        "id": "c",
+        "text": "Nonvertebral fractures only"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Choose alendronate, risedronate, zoledronic acid or denosumab when hip fracture reduction is needed.",
+    "wrongAnswerRationales": {
+      "b": "Hip fracture benefit has not been shown.",
+      "c": "Its evidence is for vertebral fractures."
+    },
+    "learningObjective": "Compare fracture efficacy among bisphosphonates.",
+    "sourceFactIds": [
+      "f-bisphos"
+    ],
+    "references": [
+      {
+        "sourceId": "osteo2021",
+        "section": "pharmacologic therapy"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m9-19",
+    "moduleId": "m9",
+    "difficulty": "application",
+    "stem": "A 66-year-old is getting her first zoledronic acid infusion. What is the most important counseling point?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Flu-like symptoms may occur in the first few days"
+      },
+      {
+        "id": "b",
+        "text": "She must fast for 24 hours after the infusion"
+      },
+      {
+        "id": "c",
+        "text": "She will need monthly infusions for one year"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Acute-phase reactions (fever, myalgia) are common after the first dose. Ensure hydration, adequate vitamin D and calcium, and creatinine clearance of at least 35. Acetaminophen can reduce symptoms.",
+    "wrongAnswerRationales": {
+      "b": "No fasting is required.",
+      "c": "Treatment is 5 mg once yearly."
+    },
+    "learningObjective": "Counsel on zoledronic acid infusion.",
+    "sourceFactIds": [
+      "f-bisphos"
+    ],
+    "references": [
+      {
+        "sourceId": "osteo2021",
+        "section": "pharmacologic therapy"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m9-20",
+    "moduleId": "m9",
+    "difficulty": "recall",
+    "stem": "How does zoledronic acid dosing for prevention differ from treatment?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "5 mg IV monthly for prevention"
+      },
+      {
+        "id": "b",
+        "text": "Prevention and treatment use identical yearly dosing"
+      },
+      {
+        "id": "c",
+        "text": "5 mg IV every 2 years for prevention vs every year for treatment"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "The long skeletal retention of zoledronic acid allows widely spaced dosing.",
+    "wrongAnswerRationales": {
+      "a": "Monthly IV dosing is not used.",
+      "b": "The prevention interval is every 2 years."
+    },
+    "learningObjective": "Recall zoledronic acid regimens.",
+    "sourceFactIds": [
+      "f-bisphos"
+    ],
+    "references": [
+      {
+        "sourceId": "osteo2021",
+        "section": "pharmacologic therapy"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m9-21",
+    "moduleId": "m9",
+    "difficulty": "application",
+    "stem": "A 72-year-old on dialysis has osteoporosis. Her clinician is considering denosumab. What is the main concern?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "It is renally cleared and accumulates on dialysis"
+      },
+      {
+        "id": "b",
+        "text": "It carries a boxed warning for severe hypocalcemia"
+      },
+      {
+        "id": "c",
+        "text": "It frequently causes acute kidney injury"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "In 2024 the FDA added a boxed warning for severe hypocalcemia with denosumab in advanced CKD, especially with CKD–mineral bone disorder. Evaluate before starting and monitor calcium.",
+    "wrongAnswerRationales": {
+      "a": "It is not renally cleared; the risk is hypocalcemia.",
+      "c": "It is not nephrotoxic."
+    },
+    "learningObjective": "Recognize denosumab risks in advanced CKD.",
+    "sourceFactIds": [
+      "f-denosumab"
+    ],
+    "references": [
+      {
+        "sourceId": "fda-denosumab-2024",
+        "section": "boxed warning"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m9-22",
+    "moduleId": "m9",
+    "difficulty": "application",
+    "stem": "A 70-year-old with very high fracture risk has Paget disease of bone. Which agent should be avoided?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Zoledronic acid"
+      },
+      {
+        "id": "b",
+        "text": "Teriparatide"
+      },
+      {
+        "id": "c",
+        "text": "Denosumab"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "PTH analogs are avoided with Paget disease, prior skeletal radiation, unexplained high alkaline phosphatase, open epiphyses and bone malignancy, because of the theoretical risk of osteosarcoma.",
+    "wrongAnswerRationales": {
+      "a": "Zoledronic acid is used to treat Paget disease.",
+      "c": "Not contraindicated in Paget disease."
+    },
+    "learningObjective": "Recall contraindications to PTH analogs.",
+    "sourceFactIds": [
+      "f-anabolic"
+    ],
+    "references": [
+      {
+        "sourceId": "osteo2021",
+        "section": "pharmacologic therapy"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m9-23",
+    "moduleId": "m9",
+    "difficulty": "recall",
+    "stem": "Which precaution applies to the first doses of teriparatide or abaloparatide?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Give them sitting or lying down"
+      },
+      {
+        "id": "b",
+        "text": "Give them with food to limit nausea"
+      },
+      {
+        "id": "c",
+        "text": "Take them with a bisphosphonate"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Transient orthostatic hypotension and tachycardia (especially with abaloparatide) can occur. Hypercalcemia can also occur.",
+    "wrongAnswerRationales": {
+      "b": "Food is not the concern.",
+      "c": "They are not combined with bisphosphonates."
+    },
+    "learningObjective": "Counsel on PTH analog administration.",
+    "sourceFactIds": [
+      "f-anabolic"
+    ],
+    "references": [
+      {
+        "sourceId": "osteo2021",
+        "section": "pharmacologic therapy"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m9-24",
+    "moduleId": "m9",
+    "difficulty": "recall",
+    "stem": "What is the standard romosozumab course?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "60 mg SC every 6 months indefinitely"
+      },
+      {
+        "id": "b",
+        "text": "20 µg SC daily for 24 months"
+      },
+      {
+        "id": "c",
+        "text": "210 mg SC monthly for 12 months"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Romosozumab's anabolic effect wanes after about 12 months. Gains are kept by moving to an antiresorptive. Follow it with an antiresorptive.",
+    "wrongAnswerRationales": {
+      "a": "That is denosumab.",
+      "b": "That is teriparatide."
+    },
+    "learningObjective": "Recall romosozumab dosing and sequencing.",
+    "sourceFactIds": [
+      "f-anabolic"
+    ],
+    "references": [
+      {
+        "sourceId": "osteo2021",
+        "section": "pharmacologic therapy"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m9-25",
+    "moduleId": "m9",
+    "difficulty": "application",
+    "stem": "A 67-year-old on a proton pump inhibitor needs calcium supplementation. Which formulation is preferred?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Calcium carbonate taken on an empty stomach"
+      },
+      {
+        "id": "b",
+        "text": "No supplement; PPIs increase calcium absorption"
+      },
+      {
+        "id": "c",
+        "text": "Calcium citrate, which can be taken with or without food"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "Calcium carbonate needs gastric acid and should be taken with meals. Citrate is preferred with PPIs, achlorhydria or after bariatric surgery.",
+    "wrongAnswerRationales": {
+      "a": "Carbonate needs stomach acid; take it with meals.",
+      "b": "PPIs reduce the absorption of calcium carbonate."
+    },
+    "learningObjective": "Choose calcium formulation by absorption.",
+    "sourceFactIds": [
+      "f-calcium"
+    ],
+    "references": [
+      {
+        "sourceId": "osteo2021",
+        "section": "calcium and vitamin D"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m9-26",
+    "moduleId": "m9",
+    "difficulty": "application",
+    "stem": "A woman on raloxifene is scheduled for hip replacement surgery. What is advised?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Continue it, because raloxifene prevents postoperative VTE"
+      },
+      {
+        "id": "b",
+        "text": "Stop raloxifene at least 72 hours before prolonged immobilization"
+      },
+      {
+        "id": "c",
+        "text": "Switch to tamoxifen for the perioperative period"
+      }
+    ],
+    "correctChoiceId": "b",
+    "rationale": "Resume raloxifene when she is fully mobile. Leg cramps and hot flashes are other common adverse effects.",
+    "wrongAnswerRationales": {
+      "a": "Raloxifene increases VTE risk.",
+      "c": "Tamoxifen also increases VTE risk."
+    },
+    "learningObjective": "Manage SERMs around immobilization.",
+    "sourceFactIds": [
+      "f-ht-bone",
+      "f-vte-history"
+    ],
+    "references": [
+      {
+        "sourceId": "osteo2021",
+        "section": "SERMs"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m10-16",
+    "moduleId": "m10",
+    "difficulty": "recall",
+    "stem": "How do tamoxifen and aromatase inhibitors differ in their effect on bone in postmenopausal women?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "AIs speed bone loss; tamoxifen preserves BMD"
+      },
+      {
+        "id": "b",
+        "text": "Both speed bone loss to a similar degree"
+      },
+      {
+        "id": "c",
+        "text": "Both increase BMD in postmenopausal women"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "Women starting an AI need baseline DXA, calcium and vitamin D, and antiresorptive therapy when fracture risk is elevated.",
+    "wrongAnswerRationales": {
+      "b": "Tamoxifen is estrogenic in postmenopausal bone.",
+      "c": "Aromatase inhibitors cause estrogen deprivation and bone loss."
+    },
+    "learningObjective": "Compare the bone effects of endocrine breast cancer therapies.",
+    "sourceFactIds": [
+      "f-dxa",
+      "f-bisphos"
+    ],
+    "references": [
+      {
+        "sourceId": "osteo2021",
+        "section": "special populations"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m10-17",
+    "moduleId": "m10",
+    "difficulty": "application",
+    "stem": "A 40-year-old premenopausal woman is starting tamoxifen. How is it likely to affect her bone density?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "It may lower BMD in premenopausal women"
+      },
+      {
+        "id": "b",
+        "text": "It will raise BMD, as in postmenopausal women"
+      },
+      {
+        "id": "c",
+        "text": "It has no effect on bone at any age"
+      }
+    ],
+    "correctChoiceId": "a",
+    "rationale": "In premenopausal women tamoxifen acts as a relative antagonist and is linked to bone loss. In postmenopausal women it preserves BMD. Tamoxifen competes with her higher endogenous estradiol.",
+    "wrongAnswerRationales": {
+      "b": "The bone effect depends on the background estrogen level.",
+      "c": "Tamoxifen has age-dependent bone effects."
+    },
+    "learningObjective": "Recognize age-dependent SERM effects on bone.",
+    "sourceFactIds": [
+      "f-dxa"
+    ],
+    "references": [
+      {
+        "sourceId": "osteo2021",
+        "section": "special populations"
+      }
+    ],
+    "examTrapTags": [
+      "SERM effects are fixed"
+    ],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
+  },
+  {
+    "id": "q-m10-18",
+    "moduleId": "m10",
+    "difficulty": "recall",
+    "stem": "Compared with tamoxifen, raloxifene is associated with which of the following?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A higher risk of endometrial cancer"
+      },
+      {
+        "id": "b",
+        "text": "Greater reduction of noninvasive breast cancer"
+      },
+      {
+        "id": "c",
+        "text": "Lower risks of uterine cancer, VTE and cataracts"
+      }
+    ],
+    "correctChoiceId": "c",
+    "rationale": "In STAR, raloxifene was somewhat less effective than tamoxifen for invasive breast cancer prevention but safer for the uterus and veins.",
+    "wrongAnswerRationales": {
+      "a": "Raloxifene is not estrogenic in the endometrium.",
+      "b": "Tamoxifen reduces noninvasive cancer more."
+    },
+    "learningObjective": "Compare SERM risk profiles.",
+    "sourceFactIds": [
+      "f-breast-risk"
+    ],
+    "references": [
+      {
+        "sourceId": "az2024",
+        "section": "slide 90"
+      }
+    ],
+    "examTrapTags": [],
+    "author": "AI draft",
+    "verifier": null,
+    "reviewedAt": null,
+    "status": "draft"
   }
 ]

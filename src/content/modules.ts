@@ -11,27 +11,63 @@ export const modules: ReviewModule[] = [
     oneMinute: [
       'Menopause = FMP confirmed after 12 months of amenorrhea; normal range 40–58 years.',
       'STRAW+10 staging is anchored on menstrual cycle criteria; FSH/AMH are supportive only.',
-      'Early transition: persistent ≥7-day difference in consecutive cycle length. Late transition: ≥60 days amenorrhea.',
+      'Early transition (−2): persistent ≥7-day difference in consecutive cycle length, recurring within 10 cycles. Late transition (−1, 1–3 y): ≥60 days amenorrhea; FSH >25 IU/L supportive.',
+      '−3b: regular cycles but low AMH/AFC. −3a: subtle shortening + early-follicular FSH rise.',
+      '+1a and +1b last ~1 year each (rapid FSH/E2 change, VMS most likely); +1c lasts 3–6 years (stabilization); early postmenopause ≈ 5–8 years total.',
+      'Perimenopause = −2 through +1a.',
       'VMS mechanism: loss of estrogen feedback → KNDy neuron hyperactivity → neurokinin B at NK3 → narrowed thermoneutral zone.',
       'POI <40 (~1%); early menopause 40–45 (~3%).',
       'Adrenal androgens rise moderately in late transition; no serum androgen level defines female androgen insufficiency.'
     ],
     decisionRules: ['Do not order FSH to diagnose menopause in a symptomatic woman >45 with typical bleeding changes.', 'Amenorrhea <40 → evaluate for POI (FSH ×2, estradiol, TSH, prolactin, hCG; consider karyotype/FMR1).'],
-    tables: [{
-      title: 'STRAW+10 at a glance',
-      columns: ['Stage', 'Menstrual criterion', 'Supportive markers'],
-      rows: [
-        ['Late reproductive (−3)', 'Subtle flow/length changes', 'Variable FSH, low AMH'],
-        ['Early transition (−2)', '≥7-day persistent variation in cycle length', '↑ variable early follicular FSH'],
-        ['Late transition (−1)', '≥60 days amenorrhea', 'FSH ≥25 IU/L; VMS likely'],
-        ['Early postmenopause (+1a–c)', 'FMP + up to ~6–8 years', 'FSH ↑, estradiol low; stabilization'],
-        ['Late postmenopause (+2)', 'Remaining lifespan', 'Somatic aging; GSM progresses']
-      ]
-    }],
+    tables: [
+      {
+        title: 'STRAW+10 — full staging (Harlow 2012)',
+        columns: ['Stage', 'Term / duration', 'Menstrual (principal)', 'Supportive markers', 'Descriptors'],
+        rows: [
+          ['−5', 'Early reproductive; variable', 'Variable to regular', '—', '—'],
+          ['−4', 'Peak reproductive; variable', 'Regular', '—', '—'],
+          ['−3b', 'Late reproductive; variable', 'Regular, length unchanged', 'FSH normal; AMH, AFC (± inhibin B) low', 'Fertility declines'],
+          ['−3a', 'Late reproductive; variable', 'Subtle flow/length change (shorter cycles)', 'Early-follicular FSH ↑ variable; AMH, AFC, inhibin B low', '—'],
+          ['−2', 'Early transition; variable', 'Persistent ≥7-day difference in consecutive cycle length (recurs within 10 cycles)', 'FSH ↑ variable; AMH, AFC low', '—'],
+          ['−1', 'Late transition; 1–3 years', 'Amenorrhea ≥60 days', 'FSH >25 IU/L (random draw); alternates with normal FSH + high E2; frequent anovulation', 'VMS likely'],
+          ['0', 'Final menstrual period', 'Recognized after 12 months of amenorrhea', '—', '—'],
+          ['+1a', 'Early postmenopause; 1 year', 'Ends perimenopause (12 months after FMP)', 'FSH rising, E2 falling', 'VMS most likely'],
+          ['+1b', 'Early postmenopause; 1 year', 'Amenorrhea', 'Rapid change continues; ends when FSH/E2 stabilize', 'VMS most likely'],
+          ['+1c', 'Early postmenopause; 3–6 years', 'Amenorrhea', 'Stable high FSH, low E2; AMH/AFC very low', '—'],
+          ['+2', 'Late postmenopause; rest of life', 'Amenorrhea', 'Limited change; FSH may fall in the very old', 'Urogenital atrophy ↑; somatic aging']
+        ]
+      },
+      {
+        title: 'Key spans to memorize',
+        columns: ['Term', 'Span'],
+        rows: [
+          ['Menopause transition', '−2 to −1 (ends at FMP)'],
+          ['Perimenopause', '−2 through +1a (12 months after FMP)'],
+          ['Early postmenopause', '+1a + +1b + +1c ≈ 5–8 years'],
+          ['Hormone stabilization', 'Start of +1c, ~2 years after FMP (lasts 3–6 years)']
+        ]
+      },
+      {
+        title: 'When bleeding criteria cannot be used',
+        columns: ['Situation', 'How to stage'],
+        rows: [
+          ['Hysterectomy or endometrial ablation', 'Biomarkers + symptoms; wait ≥3 months after surgery; usually only pre- vs postmenopausal; repeat tests'],
+          ['PCOS', 'Menstrual criteria not applicable; supportive criteria + age'],
+          ['Chemotherapy / chronic illness', 'Resumed menses ≠ normal function; combine bleeding, biomarkers, age'],
+          ['POI', 'May not fit the model; course more variable'],
+          ['LNG-IUD or ongoing hormones', 'Bleeding masked; clinical judgment ± labs off hormones'],
+          ['Age, BMI, race, smoking', 'STRAW+10 still applies (timing changes, not trajectory)']
+        ]
+      }
+    ],
     traps: [
       'Choosing an FSH threshold as diagnostic of menopause.',
       'Applying WHI data to POI.',
-      'Assuming VMS arise peripherally rather than in hypothalamic thermoregulation.'
+      'Assuming VMS arise peripherally rather than in hypothalamic thermoregulation.',
+      'Calling regular cycles with low AMH or FSH 12–15 "perimenopause" (that is −3b/−3a).',
+      'Staging a woman with PCOS or after hysterectomy by bleeding pattern.',
+      'Confusing +1a/+1b (1 year each) with +1c (3–6 years).'
     ],
     pearls: [
       { text: 'Menstrual history is the principal STRAW criterion.', factId: 'f-straw' },
@@ -40,7 +76,7 @@ export const modules: ReviewModule[] = [
     ],
     interpretiveNotes: ['FSH ≥25 IU/L for the late transition comes from STRAW+10 supportive criteria; treat it as a marker, not a definition.'],
     factIds: ['f-straw', 'f-kndy', 'f-poi-def'],
-    references: [{ sourceId: 'az2024', section: 'Staging and physiology' }, { sourceId: 'nh2023', section: 'Neurokinin B' }],
+    references: [{ sourceId: 'straw10', section: 'Figure 1' }, { sourceId: 'az2024', section: 'Staging and physiology' }, { sourceId: 'nh2023', section: 'Neurokinin B' }],
     status: 'draft', lastReviewed: null,
     keywords: ['STRAW', 'FSH', 'KNDy', 'POI', 'physiology', 'staging', 'neurokinin']
   },
@@ -129,10 +165,47 @@ export const modules: ReviewModule[] = [
         title: 'Progestogen options for endometrial protection',
         columns: ['Option', 'Regimen (examples)', 'Note'],
         rows: [
-          ['Micronized progesterone', '200 mg × 12–14 d/mo (cyclic) or 100 mg daily (continuous)', 'Bioidentical; may be less thrombogenic'],
-          ['Synthetic progestins', 'MPA, NETA, LNG in combination products', 'Combination products improve adherence'],
+          ['Micronized progesterone', '200 mg × 12–14 d/mo (cyclic) or 100 mg daily (continuous)', 'Bedtime (sedating); peanut oil; may be less thrombogenic'],
+          ['Medroxyprogesterone acetate', '2.5 mg daily (continuous) or 5–10 mg × 12–14 d/mo', 'Most data (WHI)'],
+          ['Synthetic progestins', 'NETA, LNG, drospirenone in combination products', 'Combination products improve adherence'],
           ['LNG-IUS 52 mg', 'Intrauterine', 'Off-label endometrial protection; treats AUB'],
           ['CEE + bazedoxifene', 'Daily combination (TSEC)', 'No progestogen needed; VTE risk']
+        ]
+      },
+      {
+        title: 'Estrogen dose equivalence',
+        columns: ['Formulation', 'Low dose', 'Standard dose'],
+        rows: [
+          ['Conjugated estrogens (oral)', '0.3–0.45 mg', '0.625 mg'],
+          ['Estradiol (oral)', '0.5 mg', '1 mg'],
+          ['Estradiol patch', '0.025–0.0375 mg/d', '0.05 mg/d'],
+          ['Ultra-low (bone only)', 'Estradiol patch 0.014 mg/d (Menostar)', '—']
+        ]
+      },
+      {
+        title: 'Selected FDA-approved systemic products',
+        columns: ['Product type', 'Examples', 'Pearl'],
+        rows: [
+          ['Oral E + P', 'CEE/MPA; E2/NETA; E2/drospirenone; EE/NETA', 'Drospirenone: antimineralocorticoid → K⁺ monitoring'],
+          ['Oral E2 + progesterone', 'E2 1 mg/P4 100 mg (Bijuva)', 'Only approved body-identical combination'],
+          ['Patch E + P', 'E2/NETA; E2/LNG (weekly)', 'Transdermal option with a uterus'],
+          ['Gel / spray', 'E2 gels; forearm spray (Evamist)', 'Secondary exposure: children, pets'],
+          ['TSEC', 'CEE 0.45 mg/bazedoxifene 20 mg', 'No progestogen needed'],
+          ['Vaginal ring (systemic)', 'Estradiol acetate (Femring)', 'Needs progestogen with a uterus'],
+          ['Not FDA approved', 'Estriol, pellets, compounded creams', 'Not recommended routinely']
+        ]
+      },
+      {
+        title: 'Oral vs transdermal estrogen (first-pass effects)',
+        columns: ['Parameter', 'Oral', 'Transdermal'],
+        rows: [
+          ['E1:E2 ratio', '↑ (gut/liver conversion)', 'Near physiologic'],
+          ['SHBG, TBG, CBG', '↑ (↓ free T; ↑ levothyroxine need)', 'Minimal'],
+          ['Triglycerides', '↑', 'Neutral'],
+          ['HDL / LDL', 'HDL ↑, LDL ↓', 'Smaller effect'],
+          ['CRP, clotting factors, angiotensinogen', '↑', 'Minimal'],
+          ['VTE / stroke / gallbladder (observational)', 'Higher', 'Lower'],
+          ['CYP3A4 inducers (carbamazepine, rifampin)', '↓ levels', 'Less affected']
         ]
       },
       {
@@ -192,7 +265,32 @@ export const modules: ReviewModule[] = [
         ['Desvenlafaxine', '100–150 mg/d', '25–50 mg/d, titrate'],
         ['Venlafaxine', '37.5–150 mg/d', '37.5 mg/d'],
         ['Gabapentin', '900–2,400 mg/d divided', '100–300 mg at night'],
-        ['Fezolinetant', '45 mg/d', 'No titration; hepatic monitoring']
+        ['Fezolinetant', '45 mg/d', 'No titration; hepatic monitoring'],
+        ['Elinzanetant', '120 mg at bedtime', '60 mg with moderate CYP3A4 inhibitors'],
+        ['Oxybutynin', '2.5–5 mg twice daily (or ER 15 mg)', 'Avoid in older adults']
+      ]
+    },
+    {
+      title: 'NK antagonists head to head (US labels)',
+      columns: ['Feature', 'Fezolinetant (Veozah)', 'Elinzanetant (Lynkuet)'],
+      rows: [
+        ['Target', 'NK3', 'NK1 + NK3'],
+        ['Dose', '45 mg once daily', '120 mg at bedtime'],
+        ['Metabolism', 'CYP1A2 (inhibitors contraindicated)', 'CYP3A4 (avoid strong inhibitors, grapefruit, inducers; 60 mg with moderate inhibitors)'],
+        ['Boxed warning', 'Hepatotoxicity (Dec 2024)', 'None'],
+        ['Liver tests', 'Baseline; monthly × 3; months 6 and 9', 'Baseline; month 3'],
+        ['Liver thresholds', 'Don\'t start ALT/AST or bili ≥2× ULN; stop >5× ULN or >3× with bili >2×', 'Same thresholds'],
+        ['Contraindications', 'Cirrhosis; eGFR <30; CYP1A2 inhibitors', 'Pregnancy'],
+        ['Other', 'No renal adjustment if eGFR ≥30', 'Somnolence/fatigue; seizure caution; contraception if fertile']
+      ]
+    },
+    {
+      title: 'Antidepressants with tamoxifen (CYP2D6)',
+      columns: ['Inhibition', 'Agents', 'Use with tamoxifen?'],
+      rows: [
+        ['Strong', 'Paroxetine, fluoxetine, bupropion', 'Avoid'],
+        ['Moderate', 'Sertraline, duloxetine', 'Less preferred'],
+        ['Weak / minimal', 'Venlafaxine, desvenlafaxine, escitalopram, citalopram', 'Preferred']
       ]
     }],
     traps: [
@@ -232,11 +330,12 @@ export const modules: ReviewModule[] = [
       columns: ['Product', 'Dose / schedule', 'Systemic?'],
       rows: [
         ['Estradiol tablet/insert', '10 µg daily × 2 wk, then twice weekly', 'No (local)'],
+        ['Estradiol softgel insert', '4 or 10 µg; daily × 2 wk, then twice weekly', 'No (local); lowest dose'],
         ['Estradiol 2 mg ring (Estring)', '~7.5 µg/d, replace every 90 d', 'No (local)'],
         ['Estradiol acetate ring (Femring)', 'Systemic dose, every 90 d', 'Yes — progestogen needed with uterus'],
-        ['Vaginal creams (estradiol, CE)', 'Low dose 1–3×/week', 'Low dose: local'],
+        ['Vaginal creams (estradiol 0.01%, CE 0.625 mg/g)', '0.5–1 g 1–3×/week (lower than labeled)', 'Low dose: local'],
         ['Prasterone (DHEA) insert', '6.5 mg nightly', 'No'],
-        ['Ospemifene', '60 mg oral daily', 'Oral EAA; VMS common AE']
+        ['Ospemifene', '60 mg oral daily', 'Oral SERM; hot flashes; VTE/stroke warning; avoid fluconazole, estrogens']
       ]
     }],
     traps: ['Confusing Femring with Estring.', 'Adding a progestogen to low-dose vaginal ET.', 'Choosing laser as recommended therapy.', 'Choosing systemic HT for urinary incontinence.'],
@@ -266,7 +365,15 @@ export const modules: ReviewModule[] = [
       'Low libido on oral estrogen → consider transdermal (oral ↑ SHBG).',
       'Before testosterone: baseline total T to exclude high levels; monitor to avoid supraphysiologic dosing.'
     ],
-    tables: [],
+    tables: [{
+      title: 'Drugs for low desire',
+      columns: ['Agent', 'Use', 'Key points'],
+      rows: [
+        ['Flibanserin', '100 mg at bedtime; premenopausal HSDD', '5-HT1A agonist/5-HT2A antagonist; alcohol: wait ≥2 h after 1–2 drinks, skip after ≥3; contraindicated with moderate/strong CYP3A4 inhibitors or liver disease; stop if no benefit at 8 weeks'],
+        ['Bremelanotide', '1.75 mg SC ≥45 min before sex; premenopausal HSDD', 'Melanocortin agonist; ≤1 dose/24 h, ≤8/month; nausea, transient BP rise, hyperpigmentation'],
+        ['Testosterone (off-label)', 'Postmenopausal HSDD', '~1/10 male transdermal dose; T at baseline and 3–6 weeks; stop if no benefit by 6 months']
+      ]
+    }],
     traps: ['Diagnosing HSDD from a serum testosterone.', 'HT for dementia prevention.', 'Estrogen as first-line for MDD.'],
     pearls: [
       { text: 'Micronized progesterone 300 mg qHS improved VMS and sleep (off-label).', factId: 'f-sleep' },
@@ -326,11 +433,13 @@ export const modules: ReviewModule[] = [
         title: 'Drug classes',
         columns: ['Class', 'Agent (dose)', 'Key point'],
         rows: [
-          ['Bisphosphonates', 'Alendronate, risedronate, ibandronate, zoledronate', 'Holiday possible; ONJ/AFF rare'],
-          ['RANKL inhibitor', 'Denosumab 60 mg SC q6mo', '↓ vertebral 68%, hip 40%; rebound on stopping'],
-          ['PTH/PTHrP analogs', 'Teriparatide 20 µg, abaloparatide 80 µg SC daily', 'Anabolic; follow with antiresorptive'],
+          ['Oral bisphosphonates', 'Alendronate 70 mg/wk; risedronate 35 mg/wk or 150 mg/mo; ibandronate 150 mg/mo', 'Fasting + water + upright 30 min (DR risedronate: after breakfast); ibandronate vertebral only; avoid CrCl <35'],
+          ['IV bisphosphonate', 'Zoledronic acid 5 mg yearly (q2y for prevention)', 'Acute-phase reaction after 1st dose; CrCl ≥35; holiday after 3 y if moderate risk'],
+          ['RANKL inhibitor', 'Denosumab 60 mg SC q6mo', '↓ vertebral 68%, hip 40%; rebound on stopping; boxed warning: severe hypocalcemia in advanced CKD'],
+          ['PTH/PTHrP analogs', 'Teriparatide 20 µg, abaloparatide 80 µg SC daily', 'Anabolic; first doses seated (orthostasis); avoid Paget, prior skeletal radiation, ↑ alk phos; follow with antiresorptive'],
           ['Sclerostin inhibitor', 'Romosozumab 210 mg SC monthly × 12', 'Anabolic + antiresorptive; CV warning'],
-          ['EAA (SERM)', 'Raloxifene', 'Prevention and treatment; ↓ breast cancer; ↑ VTE, hot flashes'],
+          ['EAA (SERM)', 'Raloxifene 60 mg daily', 'Vertebral (not hip) fractures; ↓ invasive ER+ breast cancer; ↑ VTE, hot flashes, leg cramps; stop 72 h before immobilization'],
+          ['Calcium', 'Carbonate with meals; citrate any time', 'Citrate with PPIs, achlorhydria, bariatric surgery'],
           ['Estrogen ± progestogen/BZA', 'HT', 'Prevention only (not treatment)']
         ]
       },

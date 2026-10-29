@@ -103,7 +103,7 @@ export const sources: Source[] = [
     title: 'FDA approval of elinzanetant (Lynkuet) for moderate to severe VMS due to menopause',
     publisher: 'US Food and Drug Administration / manufacturer announcement',
     year: 2025,
-    citation: 'Approved Oct 24, 2025. Dual neurokinin-1 and neurokinin-3 receptor antagonist.',
+    citation: 'Approved Oct 24, 2025. Dual NK1/NK3 receptor antagonist. Label: 120 mg (two 60-mg capsules) at bedtime; contraindicated in pregnancy; avoid strong CYP3A4 inhibitors, grapefruit and moderate/strong inducers; 60 mg with moderate CYP3A4 inhibitors; hepatic tests at baseline and 3 months; warnings for CNS depressant effects and seizures.',
     url: 'https://www.bayer.com/media/en-us/bayers-lynkuet-elinzanetant-approved-in-the-us-for-treatment-of-moderate-to-severe-vasomotor-symptoms-due-to-menopause/',
     type: 'regulatory',
     lastChecked: '2026-10-28',
@@ -146,6 +146,31 @@ export const sources: Source[] = [
     lastChecked: '2026-10-28',
     currency: 'current',
     note: 'Check for updated recommendations before each exam cycle.'
+  },
+  {
+    id: 'straw10',
+    code: 'STRAW+10',
+    title: 'Executive summary of the Stages of Reproductive Aging Workshop + 10: addressing the unfinished agenda of staging reproductive aging',
+    publisher: 'Harlow SD, Gass M, Hall JE, et al.',
+    year: 2012,
+    citation: 'Menopause. 2012;19(4):387–395. doi:10.1097/gme.0b013e31824d8f40',
+    url: 'https://doi.org/10.1097/gme.0b013e31824d8f40',
+    type: 'guideline',
+    lastChecked: '2026-10-28',
+    currency: 'current',
+    note: 'Primary staging source. Also published in J Clin Endocrinol Metab and Fertil Steril (2012).'
+  },
+  {
+    id: 'fda-denosumab-2024',
+    code: 'FDA 2024 (denosumab)',
+    title: 'Boxed warning for severe hypocalcemia with denosumab (Prolia) in advanced chronic kidney disease',
+    publisher: 'US Food and Drug Administration',
+    year: 2024,
+    citation: 'FDA Drug Safety Communication, Jan 19, 2024: boxed warning for severe hypocalcemia in patients with advanced CKD, especially with CKD–mineral bone disorder.',
+    url: 'https://www.fda.gov/drugs/drug-safety-and-availability',
+    type: 'regulatory',
+    lastChecked: '2026-10-28',
+    currency: 'current'
   },
   {
     id: 'mscp-handbook-2027',

@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
-import { WifiOff, RefreshCw, FlaskConical, Stethoscope, UserRound } from 'lucide-react';
+import { WifiOff, RefreshCw, FlaskConical, Stethoscope, UserRound, Palette } from 'lucide-react';
+import { SKINS } from 'app-skins';
+import { getLook, setLook } from '@/lib/look';
 import { useRegisterSW } from 'virtual:pwa-register/react';
 import { PREVIEW_EDITION } from '@/config';
 import { AUDIENCE_KEY, safeLocal } from '@/lib/storage';
@@ -165,6 +167,7 @@ export function Footer({ audience }: { audience: 'patient' | 'academy' }) {
           <NavLink to="/about">About & independence</NavLink>
           <NavLink to="/privacy">Privacy</NavLink>
           <NavLink to={audience === 'patient' ? '/academy' : '/learn'}>{audience === 'patient' ? 'For clinicians' : 'Patient guide'}</NavLink>
+          <LookPicker />
         </div>
         <p className="mt-3 max-w-[90ch]">
           Educational information only — not a diagnosis or a substitute for care from your own clinician. In an emergency call 911.
@@ -172,5 +175,52 @@ export function Footer({ audience }: { audience: 'patient' | 'academy' }) {
         </p>
       </div>
     </footer>
+  );
+}
+
+const LOOKS = [{ id: '', name: 'App default', blurb: 'Menopause Compass colours', swatch: ['#F5F1EA', '#176C6B', '#B9634D'] }, ...SKINS];
+
+/** Small "Look" control in the footer: optional shared skins, saved on this device only. */
+function LookPicker() {
+  const [open, setOpen] = useState(false);
+  const [look, setLookState] = useState(getLook);
+  const current = LOOKS.find((l) => l.id === look) ?? LOOKS[0];
+  return (
+    <div className={open ? 'w-full' : ''}>
+      <button
+        type="button"
+        className="inline-flex min-h-[32px] items-center gap-1.5 font-semibold text-teal hover:underline"
+        aria-expanded={open}
+        aria-controls="look-picker"
+        onClick={() => setOpen((o) => !o)}
+      >
+        <Palette size={14} aria-hidden /> Look: {current.name}
+      </button>
+      {open && (
+        <div id="look-picker" role="group" aria-label="Look (saved on this device)" className="mt-2 grid max-w-[640px] grid-cols-2 gap-2 sm:grid-cols-4">
+          {LOOKS.map((l) => {
+            const on = l.id === look;
+            return (
+              <button
+                key={l.id || 'default'}
+                type="button"
+                aria-pressed={on}
+                title={l.blurb}
+                onClick={() => {
+                  setLook(l.id);
+                  setLookState(l.id);
+                }}
+                className={`min-w-0 rounded-[var(--radius-control)] border bg-surface p-1.5 text-left text-ink ${on ? 'border-teal ring-2 ring-teal' : 'border-line-strong hover:border-teal'}`}
+              >
+                <span className="flex h-5 overflow-hidden rounded border border-line" aria-hidden>
+                  {l.swatch.map((c, i) => <span key={i} className="flex-1" style={{ background: c }} />)}
+                </span>
+                <span className="mt-1 block truncate text-[13px] font-semibold">{l.name}</span>
+              </button>
+            );
+          })}
+        </div>
+      )}
+    </div>
   );
 }

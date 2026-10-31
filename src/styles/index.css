@@ -193,3 +193,58 @@
   .no-print { display: none !important; }
   body { background: #fff; }
 }
+
+/* ================= app-skins adapter =================
+   Only active while a shared Look is chosen in the footer (<html data-skin="…">).
+   Maps the app's tokens onto the pack's --sk-* variables; with no skin nothing here applies. */
+:root[data-skin], :root[data-skin][data-audience='academy'] {
+  --ink: var(--sk-ink); --slate: var(--sk-sub); --slate-ui: var(--sk-faint);
+  --teal: var(--sk-accent-text); --teal-strong: var(--sk-accent-text); --teal-soft: var(--sk-accent-soft);
+  --ivory: var(--sk-bg); --page: var(--sk-bg); --surface: var(--sk-surface); --sage: var(--sk-surface-2);
+  --terra: var(--sk-err); --terra-ui: var(--sk-err); --terra-soft: var(--sk-err-bg); --lavender: var(--sk-accent-soft);
+  --ok: var(--sk-ok); --ok-soft: var(--sk-ok-bg); --err: var(--sk-err); --err-soft: var(--sk-err-bg);
+  --line: var(--sk-line); --line-strong: color-mix(in srgb, var(--sk-line) 70%, var(--sk-ink));
+  --radius-card: var(--sk-radius); --radius-control: var(--sk-radius-sm);
+}
+/* cards and panels: skin radius, shadow and frosting */
+:root[data-skin] .card { box-shadow: var(--sk-shadow); -webkit-backdrop-filter: var(--sk-blur); backdrop-filter: var(--sk-blur); }
+:root[data-skin] :is(.chip, .input, .btn-secondary, .btn-danger, .bg-surface) { -webkit-backdrop-filter: var(--sk-blur); backdrop-filter: var(--sk-blur); }
+/* accent fills: the default look uses teal with hard-coded white text */
+:root[data-skin] :is(.btn-primary, .bg-teal, .\!bg-teal, .chip[aria-pressed='true'], .chip[aria-current='page']) { background: var(--sk-accent) !important; border-color: var(--sk-accent) !important; color: var(--sk-on-accent) !important; }
+:root[data-skin] .btn-primary:hover { background: var(--sk-accent-2) !important; }
+/* dark "ink" fills (toast, offline bar, skip link, dashboard continue card) */
+:root[data-skin] :is(.bg-ink, .skip-link) { background: var(--sk-hdr-1); color: var(--sk-hdr-ink); }
+:root[data-skin] .card-link[style*='var(--ink)'] { background: linear-gradient(120deg, var(--sk-hdr-1), var(--sk-hdr-2)), var(--sk-bg) !important; border-color: var(--sk-line) !important; }
+:root[data-skin] .card-link[style*='var(--ink)'] .text-white { color: var(--sk-hdr-ink); }
+/* hard-coded light fills */
+:root[data-skin] .bg-\[rgba\(245\2c 241\2c 234\2c 0\.96\)\] { background: var(--sk-surface); -webkit-backdrop-filter: var(--sk-blur); backdrop-filter: var(--sk-blur); }
+:root[data-skin] .even\:bg-\[\#fafbfb\]:nth-child(even) { background: var(--sk-surface-2); }
+:root[data-skin] .bg-\[var\(--page\)\] { background: linear-gradient(var(--sk-surface-2), var(--sk-surface-2)), var(--sk-bg); }
+/* page content sits on a panel so no text is drawn straight onto the background art */
+:root[data-skin] main#main > div:first-child {
+  background: var(--sk-surface); border: 1px solid var(--sk-line); border-radius: var(--sk-radius); box-shadow: var(--sk-shadow);
+  -webkit-backdrop-filter: var(--sk-blur); backdrop-filter: var(--sk-blur);
+  width: calc(100% - 16px); margin: 12px auto 16px; padding-bottom: 24px;
+}
+@media (min-width: 900px) { :root[data-skin] main#main > div:first-child { margin-top: 24px; } }
+:root[data-skin] footer { margin-top: 0; background: var(--sk-surface); -webkit-backdrop-filter: var(--sk-blur); backdrop-filter: var(--sk-blur); }
+/* header bar: skin gradient with its own text colour; search box and menus inside keep the panel colours */
+:root[data-skin] header.sticky { background: linear-gradient(120deg, var(--sk-hdr-1), var(--sk-hdr-2)) !important; border-color: color-mix(in srgb, var(--sk-hdr-ink) 18%, transparent); -webkit-backdrop-filter: var(--sk-blur); backdrop-filter: var(--sk-blur); }
+:root[data-skin] header.sticky {
+  --ink: var(--sk-hdr-ink); --slate: color-mix(in srgb, var(--sk-hdr-ink) 78%, transparent); --teal: var(--sk-hdr-ink);
+  --teal-soft: color-mix(in srgb, var(--sk-hdr-ink) 16%, transparent); --sage: color-mix(in srgb, var(--sk-hdr-ink) 12%, transparent);
+  --surface: color-mix(in srgb, var(--sk-hdr-ink) 8%, transparent); --line: color-mix(in srgb, var(--sk-hdr-ink) 18%, transparent); --line-strong: color-mix(in srgb, var(--sk-hdr-ink) 35%, transparent);
+  color: var(--sk-hdr-ink);
+}
+:root[data-skin] header.sticky .bg-teal { background: color-mix(in srgb, var(--sk-hdr-ink) 22%, transparent) !important; border-color: transparent !important; color: var(--sk-hdr-ink) !important; }
+:root[data-skin] header.sticky :is(.relative.w-full, #patient-menu) {
+  --ink: var(--sk-ink); --slate: var(--sk-sub); --teal: var(--sk-accent-text); --teal-soft: var(--sk-accent-soft); --sage: var(--sk-surface-2);
+  --surface: var(--sk-surface); --line: var(--sk-line); --line-strong: color-mix(in srgb, var(--sk-line) 70%, var(--sk-ink)); color: var(--sk-ink);
+}
+:root[data-skin] header.sticky :is(.relative.w-full .bg-surface, #patient-menu) { background: linear-gradient(var(--sk-surface), var(--sk-surface)), var(--sk-bg); }
+:root[data-skin] header.sticky .relative.w-full .bg-teal { background: var(--sk-accent) !important; color: var(--sk-on-accent) !important; }
+:root[data-skin] header.sticky .relative.w-full .btn-primary { background: var(--sk-accent) !important; color: var(--sk-on-accent) !important; }
+/* sidebar and phone bottom bar: opaque skin panels */
+:root[data-skin] :is(aside.sticky, nav.fixed, #academy-more) { background: linear-gradient(var(--sk-surface), var(--sk-surface)), var(--sk-bg); }
+/* preview notice strip: opaque so its text never sits on the art */
+:root[data-skin] .no-print.bg-lavender { background: linear-gradient(var(--sk-accent-soft), var(--sk-accent-soft)), linear-gradient(var(--sk-surface), var(--sk-surface)), var(--sk-bg); }

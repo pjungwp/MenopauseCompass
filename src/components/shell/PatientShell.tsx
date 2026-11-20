@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 import { Menu, X, Search } from 'lucide-react';
 import { AudienceToggle, Footer, Logo, OfflineNotice, PreviewBanner } from './Common';
+import { HeaderActions } from './HeaderActions';
 
 const links = [
   { to: '/learn/search', label: 'Questions' },
@@ -39,7 +40,8 @@ export function PatientShell() {
               </NavLink>
             ))}
           </nav>
-          <div className="ml-auto flex items-center gap-2">
+          <div className="ml-auto flex items-center gap-1 sm:gap-2">
+            <HeaderActions />
             <div className="hidden sm:block">
               <AudienceToggle current="patient" />
             </div>

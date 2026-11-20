@@ -4,6 +4,7 @@ import {
   LayoutDashboard, BadgeCheck, BookOpenCheck, ListChecks, Bot, LineChart, Library, PanelLeftClose, PanelLeftOpen, MoreHorizontal, X, Search
 } from 'lucide-react';
 import { AudienceToggle, Footer, Logo, OfflineNotice, PreviewBanner } from './Common';
+import { HeaderActions } from './HeaderActions';
 import { SearchBox } from '@/components/search/SearchBox';
 import { searchAcademy } from '@/lib/search';
 import { safeLocal, SIDEBAR_KEY } from '@/lib/storage';
@@ -79,6 +80,7 @@ export function AcademyShell() {
                 <Search size={20} aria-hidden />
               </button>
             )}
+            {!inSession && <HeaderActions />}
             <div className="hidden sm:block">
               <AudienceToggle current="academy" />
             </div>
